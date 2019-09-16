@@ -1,0 +1,88 @@
+@font-face{font-family:star;src:url(assets/fonts/star.eot);
+	src:url(assets/fonts/star.eot?#iefix) format("embedded-opentype"),
+	url(assets/fonts/star.woff) format("woff"),
+	url(assets/fonts/star.ttf) format("truetype"),
+	url(assets/fonts/star.svg#star) format("svg");
+	font-weight:400;font-style:normal}
+@font-face{font-family:WooCommerce;src:url(assets/fonts/WooCommerce.eot);
+	src:url(assets/fonts/WooCommerce.eot?#iefix) format("embedded-opentype"),
+	url(assets/fonts/WooCommerce.woff) format("woff"),
+	url(assets/fonts/WooCommerce.ttf) format("truetype"),
+	url(assets/fonts/WooCommerce.svg#WooCommerce) format("svg");font-weight:400;font-style:normal}
+
+.count {
+	display: block;
+	position: absolute;
+	top: -10px;
+	right: -15px;
+	box-sizing: border-box;
+	padding: 2px 0px;
+	width: 26px;
+	border-radius: 100%;
+	font-size: 17px;
+	line-height: 23px;
+	color: #fff;
+	text-align: center;
+	background-color: #fb3f4c;
+}
+.popUpFormBIO-1 {
+	 width: 300px;
+	 height: 170px;
+	 /*        border: 1px solid #333;*/
+	 position: absolute;
+ }
+.popUpForm-NameNumberBIO-1,
+.popUpForm-TelefonNumberBIO-1{
+	position: relative;
+	width: 280px;
+	height: 35px;
+	display: block;
+	font-size: 16px;
+	font-family: Roboto, sans-serif;
+	color: rgb(0, 0, 0);
+	border-radius: 4px 4px 4px 4px;
+	border: 1px solid rgb(212,212,212);
+	padding: 0 5px 0 5px;
+	box-sizing: border-box;
+	margin-bottom: 12px;
+}
+.popUpForm-NameNumberBIO-1 {
+	background: url(assets/img/icon-1.png) 10px center / 22px no-repeat scroll rgb(255, 255, 255); padding: 10px 10px 10px 40px !important;
+}
+.popUpForm-TelefonNumberBIO-1 {
+	background: url(assets/img/icon-2.png) 10px center / 22px no-repeat scroll rgb(255, 255, 255); padding: 10px 10px 10px 40px !important;
+}
+.popUpForm-ButtonNumberBIO-1 {
+	position: relative;
+	width: 280px;
+	height: 44px;
+	display: block;
+	font-size: 22px;
+	font-family: Roboto, sans-serif;
+	color: rgb(51,51,51);
+	border-radius: 10px 10px 10px 10px;
+	border: 1px solid rgb(138,138,138);
+	background-image: url("assets/img/button-fone.png");
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-size: auto;
+	cursor: pointer;
+}
+#i1969 .irz.scroll0 li{
+	list-style-type: disc;
+}
+
+.content_section{
+	padding:  20px 0 30px 0;
+	font-family: Roboto, sans-serif;
+}
+.wrapper{
+	width: 85%;
+	margin: 0 auto;
+}
+.woocommerce-breadcrumb {
+	font-size: 11px;
+}
+.woocommerce-breadcrumb a{
+	color: #444648;
+}

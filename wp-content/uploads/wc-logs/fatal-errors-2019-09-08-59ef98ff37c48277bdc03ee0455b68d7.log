@@ -1,0 +1,125 @@
+2019-09-08T06:35:20+00:00 CRITICAL require(): Failed opening required 'D:\localRepository\MY-PROJECT\bio-ferma/wp-content/themes/bio-fermaW/woocommerce/includes/wc-functions-single-product.php' (include_path='.;C:\php\pear') в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\functions.php на строке 223
+
+2019-09-08T06:35:56+00:00 CRITICAL require(): Failed opening required 'D:\localRepository\MY-PROJECT\bio-ferma/wp-content/themes/bio-fermaW/woocommerce/includes/wc-functions-single-product.php' (include_path='.;C:\php\pear') в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\functions.php на строке 223
+
+2019-09-08T06:36:22+00:00 CRITICAL require(): Failed opening required 'D:\localRepository\MY-PROJECT\bio-ferma/wp-content/themes/bio-fermaW/woocommerce/includes/wc-functions-single-product.php' (include_path='.;C:\php\pear') в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\functions.php на строке 223
+
+2019-09-08T06:47:08+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_template_single_title() in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php:13
+Stack trace:
+#0 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\functions.php(223): require()
+#1 D:\localRepository\MY-PROJECT\bio-ferma\wp-settings.php(499): include('D:\\localReposit...')
+#2 D:\localRepository\MY-PROJECT\bio-ferma\wp-config.php(92): require_once('D:\\localReposit...')
+#3 D:\localRepository\MY-PROJECT\bio-ferma\wp-load.php(37): require_once('D:\\localReposit...')
+#4 D:\localRepository\MY-PROJECT\bio-ferma\wp-blog-header.php(13): require_once('D:\\localReposit...')
+#5 D:\localRepository\MY-PROJECT\bio-ferma\index.php(17): require('D:\\localReposit...')
+#6 {main}
+  thrown в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php на строке 13
+
+2019-09-08T06:47:10+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_template_single_title() in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php:13
+Stack trace:
+#0 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\functions.php(223): require()
+#1 D:\localRepository\MY-PROJECT\bio-ferma\wp-settings.php(499): include('D:\\localReposit...')
+#2 D:\localRepository\MY-PROJECT\bio-ferma\wp-config.php(92): require_once('D:\\localReposit...')
+#3 D:\localRepository\MY-PROJECT\bio-ferma\wp-load.php(37): require_once('D:\\localReposit...')
+#4 D:\localRepository\MY-PROJECT\bio-ferma\wp-blog-header.php(13): require_once('D:\\localReposit...')
+#5 D:\localRepository\MY-PROJECT\bio-ferma\index.php(17): require('D:\\localReposit...')
+#6 {main}
+  thrown в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php на строке 13
+
+2019-09-08T06:50:32+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_template_single_title() in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php:14
+Stack trace:
+#0 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\functions.php(223): require()
+#1 D:\localRepository\MY-PROJECT\bio-ferma\wp-settings.php(499): include('D:\\localReposit...')
+#2 D:\localRepository\MY-PROJECT\bio-ferma\wp-config.php(92): require_once('D:\\localReposit...')
+#3 D:\localRepository\MY-PROJECT\bio-ferma\wp-load.php(37): require_once('D:\\localReposit...')
+#4 D:\localRepository\MY-PROJECT\bio-ferma\wp-blog-header.php(13): require_once('D:\\localReposit...')
+#5 D:\localRepository\MY-PROJECT\bio-ferma\index.php(17): require('D:\\localReposit...')
+#6 {main}
+  thrown в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php на строке 14
+
+2019-09-08T06:51:03+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_template_single_title() in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php:14
+Stack trace:
+#0 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\functions.php(223): require()
+#1 D:\localRepository\MY-PROJECT\bio-ferma\wp-settings.php(499): include('D:\\localReposit...')
+#2 D:\localRepository\MY-PROJECT\bio-ferma\wp-config.php(92): require_once('D:\\localReposit...')
+#3 D:\localRepository\MY-PROJECT\bio-ferma\wp-load.php(37): require_once('D:\\localReposit...')
+#4 D:\localRepository\MY-PROJECT\bio-ferma\wp-blog-header.php(13): require_once('D:\\localReposit...')
+#5 D:\localRepository\MY-PROJECT\bio-ferma\index.php(17): require('D:\\localReposit...')
+#6 {main}
+  thrown в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php на строке 14
+
+2019-09-08T06:51:41+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_template_single_title() in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php:14
+Stack trace:
+#0 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\functions.php(223): require()
+#1 D:\localRepository\MY-PROJECT\bio-ferma\wp-settings.php(499): include('D:\\localReposit...')
+#2 D:\localRepository\MY-PROJECT\bio-ferma\wp-config.php(92): require_once('D:\\localReposit...')
+#3 D:\localRepository\MY-PROJECT\bio-ferma\wp-load.php(37): require_once('D:\\localReposit...')
+#4 D:\localRepository\MY-PROJECT\bio-ferma\wp-blog-header.php(13): require_once('D:\\localReposit...')
+#5 D:\localRepository\MY-PROJECT\bio-ferma\index.php(17): require('D:\\localReposit...')
+#6 {main}
+  thrown в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php на строке 14
+
+2019-09-08T06:51:57+00:00 CRITICAL Uncaught Error: Call to undefined function wc_product_class() in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php:16
+Stack trace:
+#0 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\functions.php(223): require()
+#1 D:\localRepository\MY-PROJECT\bio-ferma\wp-settings.php(499): include('D:\\localReposit...')
+#2 D:\localRepository\MY-PROJECT\bio-ferma\wp-config.php(92): require_once('D:\\localReposit...')
+#3 D:\localRepository\MY-PROJECT\bio-ferma\wp-load.php(37): require_once('D:\\localReposit...')
+#4 D:\localRepository\MY-PROJECT\bio-ferma\wp-blog-header.php(13): require_once('D:\\localReposit...')
+#5 D:\localRepository\MY-PROJECT\bio-ferma\index.php(17): require('D:\\localReposit...')
+#6 {main}
+  thrown в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php на строке 16
+
+2019-09-08T06:55:43+00:00 CRITICAL Uncaught Error: Call to undefined function wc_product_class() in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php:18
+Stack trace:
+#0 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\functions.php(223): require()
+#1 D:\localRepository\MY-PROJECT\bio-ferma\wp-settings.php(499): include('D:\\localReposit...')
+#2 D:\localRepository\MY-PROJECT\bio-ferma\wp-config.php(92): require_once('D:\\localReposit...')
+#3 D:\localRepository\MY-PROJECT\bio-ferma\wp-load.php(37): require_once('D:\\localReposit...')
+#4 D:\localRepository\MY-PROJECT\bio-ferma\wp-admin\admin-ajax.php(22): require_once('D:\\localReposit...')
+#5 {main}
+  thrown в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php на строке 18
+
+2019-09-08T06:55:43+00:00 CRITICAL Uncaught Error: Call to undefined function wc_product_class() in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php:18
+Stack trace:
+#0 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\functions.php(223): require()
+#1 D:\localRepository\MY-PROJECT\bio-ferma\wp-settings.php(499): include('D:\\localReposit...')
+#2 D:\localRepository\MY-PROJECT\bio-ferma\wp-config.php(92): require_once('D:\\localReposit...')
+#3 D:\localRepository\MY-PROJECT\bio-ferma\wp-load.php(37): require_once('D:\\localReposit...')
+#4 D:\localRepository\MY-PROJECT\bio-ferma\wp-blog-header.php(13): require_once('D:\\localReposit...')
+#5 D:\localRepository\MY-PROJECT\bio-ferma\index.php(17): require('D:\\localReposit...')
+#6 {main}
+  thrown в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php на строке 18
+
+2019-09-08T06:56:40+00:00 CRITICAL Uncaught Error: Call to undefined function wc_product_class() in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php:19
+Stack trace:
+#0 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\functions.php(223): require()
+#1 D:\localRepository\MY-PROJECT\bio-ferma\wp-settings.php(499): include('D:\\localReposit...')
+#2 D:\localRepository\MY-PROJECT\bio-ferma\wp-config.php(92): require_once('D:\\localReposit...')
+#3 D:\localRepository\MY-PROJECT\bio-ferma\wp-load.php(37): require_once('D:\\localReposit...')
+#4 D:\localRepository\MY-PROJECT\bio-ferma\wp-blog-header.php(13): require_once('D:\\localReposit...')
+#5 D:\localRepository\MY-PROJECT\bio-ferma\index.php(17): require('D:\\localReposit...')
+#6 {main}
+  thrown в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php на строке 19
+
+2019-09-08T07:01:30+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_template_single_title() in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php:17
+Stack trace:
+#0 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\functions.php(223): require()
+#1 D:\localRepository\MY-PROJECT\bio-ferma\wp-settings.php(499): include('D:\\localReposit...')
+#2 D:\localRepository\MY-PROJECT\bio-ferma\wp-config.php(92): require_once('D:\\localReposit...')
+#3 D:\localRepository\MY-PROJECT\bio-ferma\wp-load.php(37): require_once('D:\\localReposit...')
+#4 D:\localRepository\MY-PROJECT\bio-ferma\wp-blog-header.php(13): require_once('D:\\localReposit...')
+#5 D:\localRepository\MY-PROJECT\bio-ferma\index.php(17): require('D:\\localReposit...')
+#6 {main}
+  thrown в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php на строке 17
+
+2019-09-08T07:54:29+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_before_single_product_summary() in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php:20
+Stack trace:
+#0 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\class-wp-hook.php(286): bioferm_wrapper_producta('')
+#1 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\content-single-product.php(60): do_action('woocommerce_sin...')
+#4 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\template.php(724): require('D:\\localReposit...')
+#5 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\plugins\woocommerce\includes\wc-core-functions.php(195): load_template('D:\\localReposit...', false)
+#6 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferm в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php на строке 20
+

@@ -1,0 +1,366 @@
+.product_title{
+    font-family: Roboto, sans-serif;
+    font-size: 27px;
+    font-weight: 900;
+    color: rgb(81,81,81);
+    padding: 15px 0 15px 0;
+}
+@media screen and (max-width: 1024px){
+    .wrapper{
+        margin: 0 auto;
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+
+.summary.entry-summary,
+.startshop-item-detail{
+    overflow: auto;
+    padding: 0 5%;
+}
+
+.startshop-item-detail{
+    padding: 0 0 0 15%;
+}
+.rtwpvg-trigger-position-top-right{
+    display: none;
+}
+.rtwpvg-trigger {
+    width: auto!important;
+    height: auto!important;
+    top: auto!important;
+    right: auto!important;
+}
+.rtwpvg-trigger:hover{
+    cursor: pointer;
+}
+.startshop-item-detail p.price {
+    font-size: 30px;
+    line-height: 36px;
+    color: #59a600;
+    font-weight: bold;
+}
+.startshop-item-detail p.price ins {
+    text-decoration: none;
+}
+form.cart{
+    display: flex;
+    margin: 20px 0;
+}
+.screen-reader-text{
+    display: none;
+}
+.woocommerce-product-gallery__trigger:hover{
+    cursor: pointer;
+}
+a.woocommerce-product-gallery__trigger{
+    display: none;
+}
+.pswp__bg{
+    opacity: 0.6!important;
+}
+.quantity {
+    display: flex;
+    position: relative;
+    border: 1px solid #e6e6e6;
+    background: #fafafa;
+    border-radius: 5px;
+    margin: 0 15px 0 0;
+}
+.quantity input{
+    border: none;
+    background: none;
+    padding: 0 12px;
+    text-align: center;
+    max-width: 38px;
+}
+
+.quantity input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.quantity .qty_button.minus{
+    border-right:1px solid #e6e6e6;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -ms-transition: background 0.3s;
+    -o-transition: background 0.3s;
+    transition: background 0.3s;
+}
+.quantity .qty_button.plus{
+    border-left:1px solid #e6e6e6;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -ms-transition: background 0.3s;
+    -o-transition: background 0.3s;
+    transition: background 0.3s;
+}
+.quantity input[type='button']:active,
+.quantity input[type='button']:hover{
+    cursor: pointer;
+    background: #e6e6e6;
+}
+
+.single_add_to_cart_button.button.alt{
+    font-family: "Roboto Light", sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 12px 50px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(89, 166, 0);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.25);
+}
+.single_add_to_cart_button.button.alt:active,
+.single_add_to_cart_button.button.alt:hover{
+    cursor: pointer;
+    background-color: rgb(89, 166, 40);
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.25);
+}
+
+.woocommerce-product-details__short-description {
+    margin: 20px;
+}
+.woocommerce-tabs.wc-tabs-wrapper {
+    padding: 0 0 50px 0;
+}
+.tabs.wc-tabs {
+    display: block;
+    padding-left: 0px;
+    margin-bottom: 30px;
+    font-size: 0px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.tabs.wc-tabs li{
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #7a7a7a;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition-property: background-color, border-color;
+    transition: 0.2s;
+}
+.tabs.wc-tabs li:hover {
+    border-color: #231f20;
+    color: #000;
+}
+.tabs.wc-tabs li.active {
+    border-color: #231f20;
+    color: #000;
+}
+.tabs.wc-tabs li a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    padding: 7px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.woocommerce-Reviews-title {
+    display:none;
+}
+
+.woocommerce-Tabs-panel.woocommerce-Tabs-panel--description.panel.entry-content.wc-tab {
+    font-family: Roboto, sans-serif;
+}
+
+.woocommerce-Tabs-panel.woocommerce-Tabs-panel--description.panel.entry-content.wc-tab h2{
+    font-size: 27px;
+    font-weight: 900;
+    padding: 0px 0 25px 0;
+}
+
+
+.woocommerce #reviews #comments ol.commentlist {
+    margin: 0;
+    width: 100%;
+    background: 0 0;
+    list-style: none;
+}
+.woocommerce #reviews #comments ol.commentlist::after, .woocommerce #reviews #comments ol.commentlist::before {
+    content: ' ';
+    display: table;
+}
+.woocommerce #reviews #comments ol.commentlist li {
+    padding: 0;
+    margin: 0 0 20px;
+    border: 0;
+    position: relative;
+    background: 0;
+    border: 0;
+}
+.woocommerce #reviews #comments .commentlist>li::before {
+    content: ""
+}
+.woocommerce #reviews #comments ol.commentlist li img.avatar {
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3px;
+    width: 32px;
+    height: auto;
+    background: #ebe9eb;
+    border: 1px solid #e4e1e3;
+    margin: 0;
+    box-shadow: none;
+    display: none;
+}
+.woocommerce #reviews #comments ol.commentlist li .comment-text {
+    margin: 0 5% 0 0px;
+    border: 1px solid #e4e1e3;
+    border-radius: 4px;
+    padding: 1em 1em 0;
+    background-color: rgba(196,196,196,0.18);
+}
+.woocommerce #reviews #comments ol.commentlist li .comment-text::after, .woocommerce #reviews #comments ol.commentlist li .comment-text::before {
+    content: ' ';
+    display: table;
+}
+.woocommerce .star-rating {
+    float: right;
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1;
+    font-size: 1em;
+    width: 5.4em;
+    font-family: star;
+    font-weight: 400;
+}
+.woocommerce .star-rating::before {
+    content: "\73\73\73\73\73";
+    color: #d3ced2;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.woocommerce .star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+}
+.star-rating span::before {
+    content: "\53\53\53\53\53";
+    top: 0;
+    position: absolute;
+    left: 0;
+    color: rgb(89, 166, 0);
+}
+.woocommerce-review__author {
+    color: rgb(89, 166, 0);
+    text-transform: capitalize
+}
+.woocommerce #reviews #comments ol.commentlist li .comment-text p {
+    margin: 0 0 1em;
+    text-transform: capitalize;
+}
+.woocommerce p.stars a {
+    position: relative;
+    height: 1em;
+    width: 1em;
+    text-indent: -999em;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(89, 166, 0);
+}
+.woocommerce p.stars a::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    font-family: WooCommerce;
+    content: "\e021";
+    text-indent: 0;
+}
+.woocommerce #review_form #respond p {
+    margin: 0 0 10px;
+}
+.woocommerce p.stars:hover a::before {
+    content: "\e020";
+}
+.woocommerce p.stars.selected a.active::before {
+    content: "\e020";
+}
+.woocommerce p.stars.selected a:not(.active)::before {
+    content: "\e020";
+}
+.woocommerce p.stars a:hover~a::before {
+    content: "\e021";
+}
+.woocommerce p.stars.selected a.active~a::before {
+    content: "\e021";
+}
+.comment-reply-title{
+    display: none;
+}
+.comment-form{
+    margin: 15px 0 0 40px;
+    font-family: Roboto, sans-serif;
+}
+.comment-form-rating label {
+    font-size: 17px;
+    line-height: 2rem;
+}
+.comment-form-comment{
+    display: flex;
+    flex-direction: column;
+}
+.comment-form-comment label{
+    font-size: 16px;
+    margin: 0 0 5px 0;
+}
+.comment-form-comment label span.required {
+    display: none;
+}
+.comment-form-comment textarea {
+    max-width: 40%;
+    border: 1px solid #e4e1e3;
+    border-radius: 4px;
+    padding: 1em 1em 0;
+    background-color: rgba(196,196,196,0.18);
+}
+
+textarea:focus {
+    outline: none;
+}
+input:focus{
+    outline: none;
+}
+
+p.comment-form-author label {
+    margin: 0 13px 0 0;
+}
+p.comment-form-author input,
+p.comment-form-email input {
+    background-color: rgba(196, 196, 196, 0.18);
+    border: 1px solid #e4e1e3;
+    border-radius: 4px;
+    padding: 4px;
+}
+p.comment-form-email label{
+    margin: 0 5px 0 0;
+}
+p.form-submit input.submit {
+    font-size: 15px;
+    line-height: 14px;
+    padding: 10px 35px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(89, 166, 0);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.25);
+}
+

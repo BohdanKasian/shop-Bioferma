@@ -1,0 +1,13 @@
+2019-09-11T02:39:59+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php на строке 64
+
+2019-09-11T03:05:22+00:00 CRITICAL Uncaught Error: Call to undefined function add_filters() in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php:30
+Stack trace:
+#0 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\functions.php(223): require()
+#1 D:\localRepository\MY-PROJECT\bio-ferma\wp-settings.php(499): include('D:\\localReposit...')
+#2 D:\localRepository\MY-PROJECT\bio-ferma\wp-config.php(92): require_once('D:\\localReposit...')
+#3 D:\localRepository\MY-PROJECT\bio-ferma\wp-load.php(37): require_once('D:\\localReposit...')
+#4 D:\localRepository\MY-PROJECT\bio-ferma\wp-blog-header.php(13): require_once('D:\\localReposit...')
+#5 D:\localRepository\MY-PROJECT\bio-ferma\index.php(17): require('D:\\localReposit...')
+#6 {main}
+  thrown в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-single-product.php на строке 30
+

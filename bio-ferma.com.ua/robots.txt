@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /admin/
+Sitemap: http://rolletu.126.com.ua/sitemap.xml

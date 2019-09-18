@@ -14,15 +14,13 @@
  * @package WooCommerce/Templates
  * @version 3.6.0
  */
-
 defined( 'ABSPATH' ) || exit;
-
 if ( $max_value && $min_value === $max_value ) {
-	?>
-	<div class="quantity hidden">
-		<input type="hidden" id="<?php echo esc_attr( $input_id ); ?>" class="qty" name="<?php echo esc_attr( $input_name ); ?>" value="<?php echo esc_attr( $min_value ); ?>" />
-	</div>
-	<?php
+    ?>
+    <div class="quantity hidden">
+        <input type="hidden" id="<?php echo esc_attr( $input_id ); ?>" class="qty" name="<?php echo esc_attr( $input_name ); ?>" value="<?php echo esc_attr( $min_value ); ?>" />
+    </div>
+    <?php
 } else {
     /* translators: %s: Quantity. */
     $label = !empty($args['product_name']) ? sprintf(esc_html__('%s quantity', 'woocommerce'), wp_strip_all_tags($args['product_name'])) : esc_html__('Quantity', 'woocommerce');
@@ -50,9 +48,9 @@ if ( $max_value && $min_value === $max_value ) {
     </div>
     <?php
 }
-    // Minimum CSS to remove +/- default buttons on input field type number
-    add_action( 'wp_head' , 'custom_quantity_fields_css' );
-    function custom_quantity_fields_css(){
+// Minimum CSS to remove +/- default buttons on input field type number
+add_action( 'wp_head' , 'custom_quantity_fields_css', 100 );
+function custom_quantity_fields_css(){
     ?>
     <style>
         .quantity input::-webkit-outer-spin-button,
@@ -68,9 +66,7 @@ if ( $max_value && $min_value === $max_value ) {
     </style>
     <?php
 };
-
-
-add_action( 'wp_footer' , 'custom_quantity_fields_script' );
+add_action( 'wp_footer' , 'custom_quantity_fields_script', 100 );
 function custom_quantity_fields_script(){
     ?>
     <script type='text/javascript'>
@@ -92,13 +88,11 @@ function custom_quantity_fields_script(){
                     max         = parseFloat( $qty.attr( 'max' ) ),
                     min         = parseFloat( $qty.attr( 'min' ) ),
                     step        = $qty.attr( 'step' );
-
                 // Format values
                 if ( ! currentVal || currentVal === '' || currentVal === 'NaN' ) currentVal = 0;
                 if ( max === '' || max === 'NaN' ) max = '';
                 if ( min === '' || min === 'NaN' ) min = 0;
                 if ( step === 'any' || step === '' || step === undefined || parseFloat( step ) === 'NaN' ) step = 1;
-
                 // Change the value
                 if ( $( this ).is( '.plus' ) ) {
                     if ( max && ( currentVal >= max ) ) {
@@ -113,11 +107,10 @@ function custom_quantity_fields_script(){
                         $qty.val( ( currentVal - parseFloat( step )).toFixed( step.getDecimals() ) );
                     }
                 }
-
                 // Trigger change event
                 $qty.trigger( 'change' );
             });
         });
     </script>
-	<?php
+    <?php
 } ?>

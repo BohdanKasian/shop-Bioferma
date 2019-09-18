@@ -59,48 +59,52 @@ a.woocommerce-product-gallery__trigger{
 .pswp__bg{
     opacity: 0.6!important;
 }
-.quantity {
-    display: flex;
+.qib-container:not(#qib_id) {
+    display: flex !important;
     position: relative;
     border: 1px solid #e6e6e6;
     background: #fafafa;
     border-radius: 5px;
     margin: 0 15px 0 0;
+    width: min-content;
 }
-.quantity input{
-    border: none;
-    background: none;
+.qib-container input,
+.qib-container button{
+    border: none !important;
+    background: none !important;
     padding: 0 12px;
     text-align: center;
     max-width: 38px;
 }
 
-.quantity input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
+.qib-container button::-webkit-outer-spin-button,
+button::-webkit-inner-spin-button {
     /* display: none; <- Crashes Chrome on hover */
-    -webkit-appearance: none;
-    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+    -webkit-appearance: none !important;
+    margin: 0 !important; /* <-- Apparently some margin are still there even though it's hidden */
 }
-.quantity .qty_button.minus{
-    border-right:1px solid #e6e6e6;
-    -webkit-transition: background 0.3s;
-    -moz-transition: background 0.3s;
-    -ms-transition: background 0.3s;
-    -o-transition: background 0.3s;
-    transition: background 0.3s;
+.qib-container .minus.qib-button{
+    border: none !important;
+    border-right:1px solid #e6e6e6 !important;
+    -webkit-transition: background 0.3s !important;
+    -moz-transition: background 0.3s !important;
+    -ms-transition: background 0.3s !important;
+    -o-transition: background 0.3s !important;
+    transition: background 0.3s !important;
 }
-.quantity .qty_button.plus{
-    border-left:1px solid #e6e6e6;
-    -webkit-transition: background 0.3s;
-    -moz-transition: background 0.3s;
-    -ms-transition: background 0.3s;
-    -o-transition: background 0.3s;
-    transition: background 0.3s;
+.qib-container .plus.qib-button{
+    border: none !important;
+    border-left:1px solid #e6e6e6 !important;
+    -webkit-transition: background 0.3s !important;
+    -moz-transition: background 0.3s !important;
+    -ms-transition: background 0.3s !important;
+    -o-transition: background 0.3s !important;
+    transition: background 0.3s !important;
 }
-.quantity input[type='button']:active,
-.quantity input[type='button']:hover{
-    cursor: pointer;
-    background: #e6e6e6;
+.qib-container button[type='button']:active,
+.qib-container button[type='button']:hover{
+    cursor: pointer !important;
+    background: #e6e6e6 !important;
 }
 
 .single_add_to_cart_button.button.alt{
@@ -334,10 +338,13 @@ input::-webkit-inner-spin-button {
 }
 
 textarea:focus {
-    outline: none;
+    outline: none !important;
 }
 input:focus{
-    outline: none;
+    outline: none !important;
+}
+form.cart button[type='submit']:focus:not(#qib_id) {
+    outline: none !important;
 }
 
 p.comment-form-author label {

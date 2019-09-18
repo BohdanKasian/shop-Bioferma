@@ -83,3 +83,4 @@ if ( ! function_exists( 'bio_ferma_woocommerce_header_cart' ) ) {
         <?php
     }
 }
+

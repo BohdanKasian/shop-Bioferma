@@ -18,3 +18,45 @@
 
 2019-09-18T10:56:30+00:00 CRITICAL Cannot redeclare custom_quantity_fields_script() (previously declared in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\global\quantity-input.php:74) в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\global\quantity-input.php на строке 74
 
+2019-09-18T10:10:39+00:00 CRITICAL Cannot redeclare custom_quantity_fields_script() (previously declared in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\global\quantity-input.php:74) в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\global\quantity-input.php на строке 74
+
+2019-09-18T10:20:05+00:00 CRITICAL Cannot redeclare custom_quantity_fields_script() (previously declared in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\global\quantity-input.php:74) в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\global\quantity-input.php на строке 74
+
+2019-09-18T10:20:12+00:00 CRITICAL Cannot redeclare custom_quantity_fields_script() (previously declared in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\global\quantity-input.php:74) в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\global\quantity-input.php на строке 74
+
+2019-09-18T10:20:24+00:00 CRITICAL Cannot redeclare custom_quantity_fields_script() (previously declared in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\global\quantity-input.php:74) в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\global\quantity-input.php на строке 74
+
+2019-09-18T10:43:27+00:00 CRITICAL Cannot redeclare bioferm_add_breadcrumb() (previously declared in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions.php:7) в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\cart\cart.php на строке 21
+
+2019-09-18T13:06:20+00:00 CRITICAL Cannot redeclare custom_quantity_fields_script() (previously declared in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\global\quantity-input.php:70) в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\global\quantity-input.php на строке 70
+
+2019-09-18T13:09:33+00:00 CRITICAL Cannot redeclare custom_quantity_fields_script() (previously declared in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\global\quantity-input.php:70) в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\global\quantity-input.php на строке 70
+
+2019-09-18T13:09:41+00:00 CRITICAL Cannot redeclare custom_quantity_fields_script() (previously declared in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\global\quantity-input.php:70) в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\global\quantity-input.php на строке 70
+
+2019-09-18T13:10:16+00:00 CRITICAL Cannot redeclare custom_quantity_fields_css() (previously declared in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\global\quantity-input.php:53) в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\global\quantity-input.php на строке 68
+
+2019-09-18T13:15:27+00:00 CRITICAL syntax error, unexpected '<', expecting end of file в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\includes\wc-functions-cart.php на строке 87
+
+2019-09-18T13:15:52+00:00 CRITICAL Cannot redeclare custom_quantity_fields_css() (previously declared in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\global\quantity-input.php:53) в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\global\quantity-input.php на строке 68
+
+2019-09-18T15:46:29+00:00 CRITICAL Uncaught Error: Call to a member function get_code() on null in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\plugins\woocommerce\includes\wc-cart-functions.php:262
+Stack trace:
+#0 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\cart\cart-totals.php(32): wc_cart_totals_coupon_label(NULL)
+#1 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('D:\\localReposit...')
+#2 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2011): wc_get_template('cart/cart-total...')
+#3 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\class-wp-hook.php(286): woocommerce_cart_totals('')
+#4 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#6 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommer в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\plugins\woocommerce\includes\wc-cart-functions.php на строке 262
+
+2019-09-18T15:48:34+00:00 CRITICAL Uncaught Error: Call to a member function get_code() on null in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\plugins\woocommerce\includes\wc-cart-functions.php:262
+Stack trace:
+#0 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommerce\cart\cart-totals.php(32): wc_cart_totals_coupon_label(NULL)
+#1 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('D:\\localReposit...')
+#2 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2011): wc_get_template('cart/cart-total...')
+#3 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\class-wp-hook.php(286): woocommerce_cart_totals('')
+#4 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#6 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\woocommer в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\plugins\woocommerce\includes\wc-cart-functions.php на строке 262
+

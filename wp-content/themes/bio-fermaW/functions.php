@@ -142,6 +142,7 @@ add_action( 'widgets_init', 'bio_ferma_widgets_init' );
  * Enqueue scripts and styles.
  */
 function bio_ferma_scripts() {
+    wp_enqueue_style( 'bio-ferma-bootstrap', get_template_directory_uri().'/assets/files/styles/bootstrap.css', array());
 	wp_enqueue_style( 'bio-ferma-skinss', get_template_directory_uri().'/assets/skinss/css/default.css@v4.css',array());
 	wp_enqueue_style( 'bio-ferma-animate', get_template_directory_uri().'/assets/skinss/css/animate.css', array());
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri().'/assets/skinss/css/font-awesome.min.css@v7.css', array());
@@ -225,4 +226,6 @@ if ( class_exists( 'WooCommerce' ) ) {
     require get_template_directory() . '/woocommerce/includes/wc-functions-single-product.php';
     require get_template_directory() . '/woocommerce/includes/wc-function-archive.php';
 }
+
+
 

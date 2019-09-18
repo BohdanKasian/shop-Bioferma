@@ -7,7 +7,6 @@ add_action('woocommerce_before_main_content', 'bioferm_add_breadcrumb', 20);
 function bioferm_add_breadcrumb(){
     ?>
     <div class="content_section">
-        <div class="wrapper">
     <?php woocommerce_breadcrumb(); ?>
 
 <?php
@@ -15,7 +14,7 @@ function bioferm_add_breadcrumb(){
 
 add_action('woocommerce_after_main_content', 'bioferm_add_before_footer', 20);
 function bioferm_add_before_footer(){
-    ?>          </div>
+    ?>
             </div>
         </div>
     </div>
@@ -45,4 +44,6 @@ function add_my_currency_symbol( $currency_symbol, $currency ) {
     return $currency_symbol;
 
 }
+
+
 

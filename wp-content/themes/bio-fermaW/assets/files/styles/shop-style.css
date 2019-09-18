@@ -4,6 +4,69 @@ a{
 li {
     list-style-type: none;
 }
+
+.woocommerce-error, .woocommerce-info, .woocommerce-message {
+    padding: 1em 2em 2em 3.5em;
+    margin: 0 0 2em;
+    position: relative;
+    background-color: #f7f6f7;
+    color: #515151;
+    border-top: 3px solid #a46497;
+    list-style: none outside;
+    width: auto;
+    word-wrap: break-word;
+}
+.woocommerce #respond input#submit.added::after, .woocommerce a.button.added::after, .woocommerce button.button.added::after, .woocommerce input.button.added::after {
+    font-family: WooCommerce;
+    content: "\e017";
+    margin-left: .53em;
+    vertical-align: bottom;
+}
+.woocommerce-message {
+    border-top-color: #8fae1b;
+}
+.woocommerce-error::before, .woocommerce-info::before, .woocommerce-message::before {
+    font-family: WooCommerce;
+    content: "\e028";
+    display: inline-block;
+    position: absolute;
+    top: 1em;
+    left: 1.5em;
+}
+.woocommerce-error::after, .woocommerce-error::before, .woocommerce-info::after, .woocommerce-info::before, .woocommerce-message::after, .woocommerce-message::before {
+    content: ' ';
+    display: table;
+}
+.woocommerce-message::before {
+    content: "\e015";
+    color: #8fae1b;
+}
+.woocommerce .woocommerce-error .button, .woocommerce .woocommerce-info .button, .woocommerce .woocommerce-message .button, .woocommerce-page .woocommerce-error .button, .woocommerce-page .woocommerce-info .button, .woocommerce-page .woocommerce-message .button {
+    float: right;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    font-size: 100%;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    padding: .618em 1em;
+    font-weight: 700;
+    border-radius: 3px;
+    left: auto;
+    color: #515151;
+    background-color: #ebe9eb;
+    border: 0;
+    display: inline-block;
+    background-image: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+
+
 .wrapper-content {
     display: flex;
     align-items: flex-start;
@@ -144,7 +207,7 @@ li {
     display: none;
 }
 .columns-3 ul.products.columns-3 li .button.product_type_simple.add_to_cart_button{
-    margin: 0 0 0 25%;
+    margin: 0 0 0 20%;
     font-size: 12px;
     font-weight: bold;
     color: #ffffff;

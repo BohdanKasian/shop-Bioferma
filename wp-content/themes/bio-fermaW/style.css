@@ -86,3 +86,6 @@
 .woocommerce-breadcrumb a{
 	color: #444648;
 }
+.woocommerce ul.products li.product a.added_to_cart.wc-forward {
+	display: none;
+}

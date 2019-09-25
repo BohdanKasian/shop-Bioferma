@@ -17,7 +17,7 @@
 defined( 'ABSPATH' ) || exit;
 woocommerce_breadcrumb();
 do_action( 'woocommerce_before_cart' ); ?>
-
+    <div class="cart-box">
     <form class="woocommerce-cart-form table-responsive" action="<?php echo esc_url( wc_get_cart_url() ); ?>" method="post">
         <?php do_action( 'woocommerce_before_cart_table' ); ?>
 
@@ -126,7 +126,7 @@ do_action( 'woocommerce_before_cart' ); ?>
                     <div class="form-inline">
 
                     <?php if ( wc_coupons_enabled() ) { ?>
-                        <div class="coupon col-sm-10">
+                        <div class="coupon col-sm-8">
                             <label for="coupon_code" class="form_coupon-label">
                                 <?php esc_html_e( 'Coupon:', 'woocommerce' ); ?>
                             </label>

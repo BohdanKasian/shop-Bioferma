@@ -19,25 +19,24 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 ?>
-<div class="cart_totals col-sm <?php echo ( WC()->customer->has_calculated_shipping() ) ? 'calculated_shipping' : ''; ?>">
+<div class="cart_totals<?php echo ( WC()->customer->has_calculated_shipping() ) ? 'calculated_shipping' : ''; ?>">
 
     <?php do_action( 'woocommerce_before_cart_totals' ); ?>
 
-    <h2 class="col-sm-10"><?php _e( 'Cart totals', 'woocommerce' ); ?></h2>
+    <h2 class=""><?php _e( 'Cart totals', 'woocommerce' ); ?></h2>
 
-    <table cellspacing="0" class="shop_table shop_table_responsive table table-striped cart_total">
+    <table cellspacing="0" class="shop_table shop_table_responsive table table-striped">
 
         <tr class="cart-subtotal">
-
-                <th><?php _e( 'Subtotal', 'woocommerce' ); ?></th>
-                <td data-title="<?php esc_attr_e( 'Subtotal', 'woocommerce' ); ?>"><?php wc_cart_totals_subtotal_html(); ?></td>
-
+            <th><?php _e( 'Subtotal', 'woocommerce' ); ?></th>
+            <td data-title="<?php esc_attr_e( 'Subtotal', 'woocommerce' ); ?>"><?php wc_cart_totals_subtotal_html(); ?></td>
+        </tr>
 
         <?php foreach ( WC()->cart->get_coupons() as $code => $coupon ) : ?>
-            <td class="cart-discount coupon-<?php echo esc_attr( sanitize_title( $code ) ); ?>">
+            <tr class="cart-discount coupon-<?php echo esc_attr( sanitize_title( $code ) ); ?>">
                 <th><?php wc_cart_totals_coupon_label( $coupon ); ?></th>
                 <td data-title="<?php echo esc_attr( wc_cart_totals_coupon_label( $coupon, false ) ); ?>"><?php wc_cart_totals_coupon_html( $coupon ); ?></td>
-            </td>
+            </tr>
         <?php endforeach; ?>
 
         <?php if ( WC()->cart->needs_shipping() && WC()->cart->show_shipping() ) : ?>
@@ -84,22 +83,22 @@ if ( ! defined( 'ABSPATH' ) ) {
             <?php endif; ?>
         <?php endif; ?>
 
-
         <?php do_action( 'woocommerce_cart_totals_before_order_total' ); ?>
 
-
+        <tr class="order-total">
             <th><?php _e( 'Total', 'woocommerce' ); ?></th>
             <td data-title="<?php esc_attr_e( 'Total', 'woocommerce' ); ?>"><?php wc_cart_totals_order_total_html(); ?></td>
-            <td class="wc-proceed-to-checkout">
-                <?php do_action( 'woocommerce_proceed_to_checkout' ); ?>
-            </td>
+        </tr>
 
         <?php do_action( 'woocommerce_cart_totals_after_order_total' ); ?>
-        </tr>
+
     </table>
 
-
+    <div class="wc-proceed-to-checkout">
+        <?php do_action( 'woocommerce_proceed_to_checkout' ); ?>
+    </div>
 
     <?php do_action( 'woocommerce_after_cart_totals' ); ?>
 
+</div>
 </div>

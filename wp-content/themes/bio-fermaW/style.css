@@ -10,6 +10,13 @@
 	url(assets/fonts/WooCommerce.ttf) format("truetype"),
 	url(assets/fonts/WooCommerce.svg#WooCommerce) format("svg");font-weight:400;font-style:normal}
 
+.bi.irz, .bi.irz::before, .bi.irz::after {
+    box-sizing: unset;
+}
+#i555 .nav {
+	display: block;
+}
+
 .count {
 	display: block;
 	position: absolute;
@@ -117,5 +124,23 @@ div#primary.content-area{
 .col-2 {
 	max-width: none;
 }
+.your-order-total .shop_table.woocommerce-checkout-review-order-table {
+	width: 100%;
+}
 
-
+.wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ng,
+.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors,
+.wpcf7-response-output.wpcf7-validation-errors,
+.wpcf7-response-output.wpcf7-mail-sent-ng,
+.wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok{
+    margin: 1em 0.5em 1em;
+    border: none;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    background-color: white;
+}
+span.wpcf7-not-valid-tip {
+    position: absolute;
+    min-width: 155px;
+    top: -17px;
+}

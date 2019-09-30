@@ -864,7 +864,10 @@ get_header();
 
                             <img id="imgAnimate3" src="<?php echo get_template_directory_uri(); ?>/assets/img/ButtonAnimate5.png" alt="Биоферм - узнайте стоимость">
 
-                        </a></div></div></div></div></div></div><div id="pgc_543" style="height:759px;"><div id="virtualc_543" style="height:759px;z-index:49;" class="virtuals"><div class="allContent" style="width:999px;height:759px;"><div id="c_543" class="droppable" style="width:999px;height:759px;"><a id="ac_543" class="ascroll" style="top:-86px;"></a><div class="bi irz" id="i544" style="z-index:48;top:32px;left:0px;"><div class="irz scroll0"><p><span style="font-weight: 900; font-size: 35px;"><span style="font-family: Roboto, sans-serif;"><span style="color: #515151; font-weight: 300;">Они уже используют подстилку</span><span style="font-weight: 900;"> Био</span><span style="color: #006511;">ферм</span></span></span></p></div></div><div class="bi" id="i545" style="top:37px;left:694px;z-index:49;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/545-525-512-509-s-list.png@times=1490346416" width="46" height="35" alt="" title="" class="bl center"></div><div class="bi irz" id="i546" style="top:117px;left:0px;z-index:20;"><div class="irz scroll0"><link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/src/lightbox.css">
+                        </a></div></div></div></div></div></div><div id="pgc_543" style="height:759px;"><div id="virtualc_543" style="height:759px;z-index:49;" class="virtuals"><div class="allContent" style="width:999px;height:759px;"><div id="c_543" class="droppable" style="width:999px;height:759px;"><a id="ac_543" class="ascroll" style="top:-86px;"></a><div class="bi irz" id="i544" style="z-index:48;top:32px;left:0px;"><div class="irz scroll0"><p><span style="font-weight: 900; font-size: 35px;"><span style="font-family: Roboto, sans-serif;"><span style="color: #515151; font-weight: 300;">Они уже используют подстилку</span><span style="font-weight: 900;"> Био</span><span style="color: #006511;">ферм</span></span></span></p></div></div><div class="bi" id="i545" style="top:37px;left:694px;z-index:49;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/545-525-512-509-s-list.png@times=1490346416" width="46" height="35" alt="" title="" class="bl center"></div>
+                <div class="bi irz" id="i546" style="top:117px;left:0px;z-index:20;">
+                    <div class="irz scroll0">
+                        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/src/lightbox.css">
 
 
                         <table style="border-collapse: collapse; width: 999px;" align="center">
@@ -872,25 +875,26 @@ get_header();
                             <tr>
                                 <!-- ПЕРВАЯ КАРТИНКА -->
                                 <td style="width: 249px; height: 200px;" align="center" valign="middle">
-                                    <a href="<?php echo get_template_directory_uri(); ?>/galery-main/big-1-min.jpg" data-lightbox="roadtrip1-1">
-                                        <img onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1.0)';" style="border: none; transition: all 0.2s ease-out; border-radius: 10px;" src="<?php echo get_template_directory_uri(); ?>/assets/galery-main/small-1-min.jpg" alt="Bioferm - подстилки для животных" width="239" height="190" />
+                                    <a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/big-1-min.jpg" data-lightbox="roadtrip1-1">
+                                        <img onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1.0)';"
+                                             style="border: none; transition: all 0.2s ease-out; border-radius: 10px;" src="<?php echo get_template_directory_uri(); ?>/assets/galery-main/small-1-min.jpg" alt="Bioferm - подстилки для животных" width="239" height="190" />
                                     </a>
                                 </td>
                                 <!-- ############### 2 КАРТИНКА -->
                                 <td style="width: 249px;" align="center" valign="middle">
-                                    <a href="<?php echo get_template_directory_uri(); ?>/galery-main/big-2-v2-min.jpg" data-lightbox="roadtrip1-1">
+                                    <a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/big-2-v2-min.jpg" data-lightbox="roadtrip1-1">
                                         <img onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1.0)';" style="transition: all 0.2s ease-out; border-radius: 10px;" src="<?php echo get_template_directory_uri(); ?>/assets/galery-main/small-2-v2-min.jpg" alt="Bioferm - подстилки для животных" width="239" height="190" />
                                     </a>
                                 </td>
                                 <!-- ############### 3 КАРТИНКА -->
                                 <td style="width: 249px;" align="center" valign="middle">
-                                    <a href="<?php echo get_template_directory_uri(); ?>/galery-main/big-3-min.jpg" data-lightbox="roadtrip1-1">
+                                    <a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/big-3-min.jpg" data-lightbox="roadtrip1-1">
                                         <img onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1.0)';" style="transition: all 0.2s ease-out; border-radius: 10px;" src="<?php echo get_template_directory_uri(); ?>/assets/galery-main/small-3-min.jpg" alt="Bioferm - подстилки для животных" width="239" height="190" />
                                     </a>
                                 </td>
                                 <!-- ############### 4 КАРТИНКА -->
                                 <td style="width: 249px;" align="center" valign="middle">
-                                    <a href="<?php echo get_template_directory_uri(); ?>/galery-main/big-4-min.jpg" data-lightbox="roadtrip1-1">
+                                    <a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/big-4-min.jpg" data-lightbox="roadtrip1-1">
                                         <img onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1.0)';" style="transition: all 0.2s ease-out; border-radius: 10px;" src="<?php echo get_template_directory_uri(); ?>/assets/galery-main/small-4-min.jpg" alt="Bioferm - подстилки для животных" width="239" height="190" />
                                     </a>
                                 </td>
@@ -898,25 +902,25 @@ get_header();
                             <tr>
                                 <!-- ############### 5 КАРТИНКА -->
                                 <td style="width: 249px; height: 200px;" align="center" valign="middle">
-                                    <a href="<?php echo get_template_directory_uri(); ?>/galery-main/big-5-min.jpg" data-lightbox="roadtrip1-1">
+                                    <a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/big-5-min.jpg" data-lightbox="roadtrip1-1">
                                         <img onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1.0)';" style=" transition: all 0.2s ease-out; border-radius: 10px;" src="<?php echo get_template_directory_uri(); ?>/assets/galery-main/small-5-min.jpg" alt="Bioferm - подстилки для животных" width="239" height="190" />
                                     </a>
                                 </td>
                                 <!-- ############### 6 КАРТИНКА -->
                                 <td style="width: 249px;" align="center" valign="middle">
-                                    <a href="<?php echo get_template_directory_uri(); ?>/galery-main/big-6-v2-min.jpg" data-lightbox="roadtrip1-1">
+                                    <a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/big-6-v2-min.jpg" data-lightbox="roadtrip1-1">
                                         <img onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1.0)';" style="transition: all 0.2s ease-out; border-radius: 10px;" src="<?php echo get_template_directory_uri(); ?>/assets/galery-main/small-6-v2-min.jpg" alt="Bioferm - подстилки для животных" width="239" height="190" />
                                     </a>
                                 </td>
                                 <!-- ############### 7 КАРТИНКА -->
                                 <td style="width: 249px;" align="center" valign="middle">
-                                    <a href="<?php echo get_template_directory_uri(); ?>/galery-main/big-7-v2-min.jpg" data-lightbox="roadtrip1-1">
+                                    <a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/big-7-v2-min.jpg" data-lightbox="roadtrip1-1">
                                         <img onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1.0)';" style="transition: all 0.2s ease-out; border-radius: 10px;" src="<?php echo get_template_directory_uri(); ?>/assets/galery-main/small-7-v2-min.jpg" alt="Bioferm - подстилки для животных" width="239" height="190" />
                                     </a>
                                 </td>
                                 <!-- ############### 8 КАРТИНКА -->
                                 <td style="width: 249px;" align="center" valign="middle">
-                                    <a href="<?php echo get_template_directory_uri(); ?>/galery-main/big-8-min.jpg" data-lightbox="roadtrip1-1">
+                                    <a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/big-8-min.jpg" data-lightbox="roadtrip1-1">
                                         <img onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1.0)';" style="transition: all 0.2s ease-out; border-radius: 10px;" src="<?php echo get_template_directory_uri(); ?>/assets/galery-main/small-8-min.jpg" alt="Bioferm - подстилки для животных" width="239" height="190" />
                                     </a>
                                 </td>
@@ -924,25 +928,25 @@ get_header();
                             <tr>
                                 <!-- ############### 9 КАРТИНКА -->
                                 <td style="width: 249px; height: 200px;" align="center" valign="middle">
-                                    <a href="<?php echo get_template_directory_uri(); ?>/galery-main/big-9-min.jpg" data-lightbox="roadtrip1-1">
+                                    <a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/big-9-min.jpg" data-lightbox="roadtrip1-1">
                                         <img onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1.0)';" style="transition: all 0.2s ease-out; border-radius: 10px;" src="<?php echo get_template_directory_uri(); ?>/assets/galery-main/small-9-min.jpg" alt="Bioferm - подстилки для животных" width="239" height="190" />
                                     </a>
                                 </td>
                                 <!-- ############### 10 КАРТИНКА -->
                                 <td style="width: 249px;" align="center" valign="middle">
-                                    <a href="<?php echo get_template_directory_uri(); ?>/galery-main/big-10-min.jpg" data-lightbox="roadtrip1-1">
+                                    <a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/big-10-min.jpg" data-lightbox="roadtrip1-1">
                                         <img onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1.0)';" style="transition: all 0.2s ease-out; border-radius: 10px;" src="<?php echo get_template_directory_uri(); ?>/assets/galery-main/small-10-min.jpg" alt="Bioferm - подстилки для животных" width="239" height="190" />
                                     </a>
                                 </td>
                                 <!-- ############### 11 КАРТИНКА -->
                                 <td style="width: 249px;" align="center" valign="middle">
-                                    <a href="<?php echo get_template_directory_uri(); ?>/galery-main/big-11-min.jpg" data-lightbox="roadtrip1-1">
+                                    <a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/big-11-min.jpg" data-lightbox="roadtrip1-1">
                                         <img onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1.0)';" style="transition: all 0.2s ease-out; border-radius: 10px;" src="<?php echo get_template_directory_uri(); ?>/assets/galery-main/small-11-min.jpg" alt="Bioferm - подстилки для животных" width="239" height="190" />
                                     </a>
                                 </td>
                                 <!-- ############### 12 КАРТИНКА -->
                                 <td style="width: 249px;" align="center" valign="middle">
-                                    <a href="<?php echo get_template_directory_uri(); ?>/galery-main/big-12-min.jpg" data-lightbox="roadtrip1-1">
+                                    <a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/big-12-min.jpg" data-lightbox="roadtrip1-1">
                                         <img onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1.0)';" style="transition: all 0.2s ease-out; border-radius: 10px;" src="<?php echo get_template_directory_uri(); ?>/assets/galery-main/small-12-min.jpg" alt="Bioferm - подстилки для животных" width="239" height="190" />
                                     </a>
                                 </td>

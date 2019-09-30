@@ -339,6 +339,9 @@ li {
            style-cart
                      *******/
 
+p.return-to-shop {
+    margin: 0 0 20px
+}
 .post-100.page.type-page.status-publish.hentry .entry-content .woocommerce .woocommerce-breadcrumb {
     position: relative;
     top: -75px;

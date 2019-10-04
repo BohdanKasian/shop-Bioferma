@@ -10,6 +10,46 @@
  */
 
 ?>
+<!-- bitrix24 -->
+<script data-skip-moving="true">
+    (function(w,d,u,b){
+        s=d.createElement('script');r=(Date.now()/60000|0);s.async=1;s.src=u+'?'+r;
+        h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+    })(window,document,'https://cdn.bitrix24.ua/b2757181/crm/site_button/loader_2_v6o795.js');
+</script>
+<!-- end bitrix24 -->
+<style>
+    #page-preloader {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: #fff;
+        z-index: 100500;
+    }
+
+    #page-preloader .spinner {
+        width: 100%;
+        height:  100%;
+        position: absolute;
+        left: 45%;
+        top: 60%;
+        background: url('http://bio-ferma.com.ua/files/block/preload.gif') no-repeat ;
+        margin: -16px 0 0 -16px;
+    }
+    video#bgvid {
+        position: fixed; right: 0; bottom: 0;
+        min-width: 100%; min-height: 100%;
+        width: auto; height: auto;
+        background-size: cover;
+    }
+</style>
+
+
+
+
+
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -134,201 +174,20 @@
                                 <li style="margin-bottom: 5px;">Не заводятся грызуны</li>
                                 <li style="margin-bottom: 5px;">Животные не болеют</li>
                                 <li>После животных не<br />нужно убирать</li>
-                            </ul></div></div><div class="bi irz" id="i1112" style="z-index:150;top:411px;left:689px;"><div class="irz scroll0"><p style="text-align: center; margin: 0px; padding: 0px; line-height: 12px;"><span style="font-size: 12px; line-height: 12px;"> <span style="font-family: Roboto, sans-serif; font-weight: lighter; line-height: 12px;"> Ваши контактые данные в безопасности и не будут переданы третьим лицам </span> </span></p></div></div><div class="bi irz" id="i1113" style="z-index:150;top:229px;left:695px;"><div class="irz scroll0"><p style="text-align: center;"><strong><span style="font-size: 18px;"><span id="popUpFormZagolovokBIO-1-header-1" style="font-family: Roboto, sans-serif;">ЗАКАЖИТЕ ОБРАТНЫЙ ЗВОНОК</span></span></strong></p></div></div><div class="bi irz" id="i1117" style="z-index:200;top:480px;left:164px;"><div class="irz scroll0"><p><span style="font-family: Roboto, sans-serif; font-size: 24px; font-weight: 900; line-height: 10px;">срок<br />службы<br /></span></p></div></div><div class="bi irz" id="i1116" style="z-index:200;top:470px;left:25px;"><div class="irz scroll0"><p><span style="font-family: Roboto, sans-serif; font-size: 45px; font-weight: 900;">3</span></p></div></div><div class="bi irz" id="i1118" style="z-index:200;top:481px;left:63px;"><div class="irz scroll0"><p><span style="font-family: Roboto, sans-serif; font-size: 30px; font-weight: 900;">ГОДА</span></p></div></div><div class="bi irz" id="i1119" style="z-index:200;top:92px;left:111px;"><div class="irz scroll0"><p style="text-align: center;"><span style="font-family: Roboto, sans-serif; font-size: 30px; font-weight: 900; line-height: 28px;">На 48% удешевляет содержание животных<br />уже через 5 дней с помощью<br />новых ЭКО-технологий </span></p></div></div><div class="bi" id="i1104" style="top:349px;left:321px;z-index:80;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/1104-s-fone-4.png@times=1517402034" width="220" height="232" alt="" title="" class="bl center"></div><div class="bi" id="i1102" style="top:77px;left:0px;z-index:100;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/1102-s-fone-5-line.png@times=1517402034" width="993" height="4" alt="" title="" class="bl center"></div><div class="bi" id="i1103" style="top:205px;left:473px;z-index:100;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/1103-s-fone-2.png@times=1517402034" width="519" height="377" alt="" title="" class="bl center"></div><div class="bi" id="i1105" style="top:463px;left:10px;z-index:100;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/s-fone-1-v2.png@times=1517405075" width="280" height="73" alt="" title="" class="bl center"></div><div class="bi irz" id="i1108" style="top:214px;left:678px;z-index:120;"></div><div class="bi" id="i1106" style="top:25px;left:820px;z-index:150;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/1106-1092-s-list.png@times=1517402175" width="40" height="30" alt="" title="" class="bl center"></div><div class="bi" id="i1107" style="top:157px;left:888px;z-index:170;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/1107-s-fone-3.png@times=1517402034" width="100" height="64" alt="" title="" class="bl center"></div><div class="bi irz" id="i1094" style="top:252px;left:11px;z-index:100;"><div class="irz scroll0"><div style="height: 23px;width: 23px;display: inline-block;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon.png);background-repeat: no-repeat;background-position: 0px -23px;" ></div></div></div><div class="bi irz" id="i1095" style="top:215px;left:11px;z-index:100;"><div class="irz scroll0"><div style="height: 23px;width: 23px;display: inline-block;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon.png);background-repeat: no-repeat;background-position: 0px 0px;" ></div></div></div><div class="bi irz" id="i1096" style="top:287px;left:11px;z-index:100;"><div class="irz scroll0"><div style="height: 23px;width: 23px;display: inline-block;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon.png);background-repeat: no-repeat;background-position: 0px -46px;" ></div></div></div><div class="bi irz" id="i1097" style="top:323px;left:11px;z-index:100;"><div class="irz scroll0"><div style="height: 23px;width: 23px;display: inline-block;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon.png);background-repeat: no-repeat;background-position: 0px -68px;" ></div></div></div><div class="bi irz" id="i1098" style="top:357px;left:11px;z-index:100;"><div class="irz scroll0"><div style="height: 23px;width: 23px;display: inline-block;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon.png);background-repeat: no-repeat;background-position: 0px -91px;" ></div></div></div><div class="bi irz" id="i1099" style="top:392px;left:11px;z-index:100;"><div class="irz scroll0"><div style="height: 23px;width: 23px;display: inline-block;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon.png);background-repeat: no-repeat;background-position: 0px -114px;" ></div></div></div><div class="bi irz" id="i1100" style="top:265px;left:700px;z-index:150;"><div class="irz scroll0"><style>
-                                .popUpFormBIO-header-1 {
-                                    width: 300px;
-                                    height: 170px;
-                                    /*      border: 1px solid #333;   */
-                                    position: absolute;
-                                }
+                            </ul></div></div><div class="bi irz" id="i1112" style="z-index:150;top:411px;left:689px;"><div class="irz scroll0"><p style="text-align: center; margin: 0px; padding: 0px; line-height: 12px;"><span style="font-size: 12px; line-height: 12px;"> <span style="font-family: Roboto, sans-serif; font-weight: lighter; line-height: 12px;"> Ваши контактые данные в безопасности и не будут переданы третьим лицам </span> </span></p></div></div><div class="bi irz" id="i1113" style="z-index:150;top:229px;left:695px;"><div class="irz scroll0"><p style="text-align: center;"><strong><span style="font-size: 18px;"><span id="popUpFormZagolovokBIO-1-header-1" style="font-family: Roboto, sans-serif;">ЗАКАЖИТЕ ОБРАТНЫЙ ЗВОНОК</span></span></strong></p></div></div><div class="bi irz" id="i1117" style="z-index:200;top:480px;left:164px;"><div class="irz scroll0"><p><span style="font-family: Roboto, sans-serif; font-size: 24px; font-weight: 900; line-height: 10px;">срок<br />службы<br /></span></p></div></div><div class="bi irz" id="i1116" style="z-index:200;top:470px;left:25px;"><div class="irz scroll0"><p><span style="font-family: Roboto, sans-serif; font-size: 45px; font-weight: 900;">3</span></p></div></div><div class="bi irz" id="i1118" style="z-index:200;top:481px;left:63px;"><div class="irz scroll0"><p><span style="font-family: Roboto, sans-serif; font-size: 30px; font-weight: 900;">ГОДА</span></p></div></div><div class="bi irz" id="i1119" style="z-index:200;top:92px;left:111px;"><div class="irz scroll0"><p style="text-align: center;"><span style="font-family: Roboto, sans-serif; font-size: 30px; font-weight: 900; line-height: 28px;">На 48% удешевляет содержание животных<br />уже через 5 дней с помощью<br />новых ЭКО-технологий </span></p></div></div><div class="bi" id="i1104" style="top:349px;left:321px;z-index:80;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/1104-s-fone-4.png@times=1517402034" width="220" height="232" alt="" title="" class="bl center"></div><div class="bi" id="i1102" style="top:77px;left:0px;z-index:100;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/1102-s-fone-5-line.png@times=1517402034" width="993" height="4" alt="" title="" class="bl center"></div><div class="bi" id="i1103" style="top:205px;left:473px;z-index:100;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/1103-s-fone-2.png@times=1517402034" width="519" height="377" alt="" title="" class="bl center"></div><div class="bi" id="i1105" style="top:463px;left:10px;z-index:100;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/s-fone-1-v2.png@times=1517405075" width="280" height="73" alt="" title="" class="bl center"></div><div class="bi irz" id="i1108" style="top:214px;left:678px;z-index:120;"></div><div class="bi" id="i1106" style="top:25px;left:820px;z-index:150;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/1106-1092-s-list.png@times=1517402175" width="40" height="30" alt="" title="" class="bl center"></div><div class="bi" id="i1107" style="top:157px;left:888px;z-index:170;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/1107-s-fone-3.png@times=1517402034" width="100" height="64" alt="" title="" class="bl center"></div><div class="bi irz" id="i1094" style="top:252px;left:11px;z-index:100;"><div class="irz scroll0"><div style="height: 23px;width: 23px;display: inline-block;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon.png);background-repeat: no-repeat;background-position: 0px -23px;" ></div></div></div><div class="bi irz" id="i1095" style="top:215px;left:11px;z-index:100;"><div class="irz scroll0"><div style="height: 23px;width: 23px;display: inline-block;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon.png);background-repeat: no-repeat;background-position: 0px 0px;" ></div></div></div><div class="bi irz" id="i1096" style="top:287px;left:11px;z-index:100;"><div class="irz scroll0"><div style="height: 23px;width: 23px;display: inline-block;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon.png);background-repeat: no-repeat;background-position: 0px -46px;" ></div></div></div><div class="bi irz" id="i1097" style="top:323px;left:11px;z-index:100;"><div class="irz scroll0"><div style="height: 23px;width: 23px;display: inline-block;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon.png);background-repeat: no-repeat;background-position: 0px -68px;" ></div></div></div><div class="bi irz" id="i1098" style="top:357px;left:11px;z-index:100;"><div class="irz scroll0"><div style="height: 23px;width: 23px;display: inline-block;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon.png);background-repeat: no-repeat;background-position: 0px -91px;" ></div></div></div><div class="bi irz" id="i1099" style="top:392px;left:11px;z-index:100;"><div class="irz scroll0"><div style="height: 23px;width: 23px;display: inline-block;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon.png);background-repeat: no-repeat;background-position: 0px -114px;" ></div></div></div><div class="bi irz" id="i1100" style="top:265px;left:700px;z-index:150;"><div class="irz scroll0">
 
-                                .popUpForm-NameNumberBIO-header-1,
-                                .popUpForm-TelefonNumberBIO-header-1{
-                                    position: relative;
-                                    width: 280px;
-                                    height: 35px;
-                                    display: block;
-                                    font-size: 16px;
-                                    font-family: Roboto, sans-serif;
-                                    color: rgb(0, 0, 0);
-                                    border-radius: 4px 4px 4px 4px;
-                                    border: 1px solid rgb(212,212,212);
-                                    padding: 0 5px 0 5px;
-                                    box-sizing: border-box;
-                                    margin-bottom: 12px;
-                                }
-
-                                .popUpForm-NameNumberBIO-header-1 {
-                                    background: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon-1.png) 10px center / 22px no-repeat scroll rgb(255, 255, 255); padding: 10px 10px 10px 40px !important;
-                                }
-
-                                .popUpForm-TelefonNumberBIO-header-1 {
-                                    background: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon-2.png) 10px center / 22px no-repeat scroll rgb(255, 255, 255); padding: 10px 10px 10px 40px !important;
-                                }
-                                .popUpForm-ButtonNumberBIO-header-1 {
-                                    position: relative;
-                                    width: 280px;
-                                    height: 44px;
-                                    display: block;
-                                    font-size: 22px;
-                                    font-family: Roboto, sans-serif;
-                                    color: rgb(51,51,51);
-                                    border-radius: 10px 10px 10px 10px;
-                                    border: 1px solid rgb(138,138,138);
-                                    background-repeat: repeat;
-                                    background-attachment: scroll;
-                                    background-size: auto;
-                                    cursor: pointer;
-                                }
-
-
-                            </style>
 
                             <div class="popUpFormBIO-header-1" id="formInCallBIO-1-header-1">
-                                <form action="javascript:void(null);" method="POST" id="form-BIO-header-1" onsubmit="popUpFormBIO1_header_1()">
-                                    <input class="popUpForm-NameNumberBIO-header-1" type="text" placeholder="        Введите Ваше имя" name= "name1">
-                                    <input  id="rightfoneform4"  class="popUpForm-TelefonNumberBIO-header-1" type="text" placeholder="      Введите Ваш телефон" name= "message1">
-                                    <input class="popUpForm-ButtonNumberBIO-header-1" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/ButtonAnimate2.gif');"  type="submit" value="Заказать звонок" onclick="setTimeout(goAfterFlyBIO1_header_1, 200);">
-                                </form>
+                                <?php echo do_shortcode ('[contact-form-7 id="108" title="Main contact form"]'); ?>
                             </div>
 
 
-                            <script type="text/javascript">
-                                // Снипет 1 - Название функции которую будем запускать
-                                function popUpFormBIO1_header_1() {
-                                    fbq('track', 'Lead');
-                                    var msg   = jQuery('#form-BIO-header-1').serialize(); //Идентификатор формы с которой работаем
-                                    jQuery.ajax({
-                                        type: 'POST',
-                                        url: 'mail/post-1.php',  //Адрес к обработчику
-                                        data: msg,
-                                        success: function(data) {
-                                            jQuery('.results').html(data);
-                                            //Всплывающее окно
-                                        },
-                                        error:  function(xhr, str){
-                                            alert('Возникла ошибка: ' + xhr.responseCode);
-                                        }
-                                    });
 
-                                    console.log('ok');
-
-                                };
-
-                                // Снипет 2 - Cброс данных формы, запуск через onclick в submit
-
-                                function goAfterFlyBIO1_header_1() {
-                                    document.getElementById('form-BIO-header-1').reset();
-                                    console.log('ok2');
-
-                                    document.getElementById('popUpFormZagolovokBIO-1-header-1').innerHTML = ('Заявка успешно принята!');
-                                    document.getElementById('formInCallBIO-1-header-1').style.display='none';
-
-
-                                    document.getElementById('formInCallTextIconImageBIO-header-1').style.display='inline-block';
-                                    //document.getElementById('formInCallTextButtom').style.fontSize='21px';
-
-                                }
-                            </script>
-                        </div></div><div class="bi irz" id="i1101" style="top:265px;left:681px;z-index:150;"><div class="irz scroll0"><img id="formInCallTextIconImageBIO-header-1" style="display: none; position: relative; top: 20px; left: 110px;" src="<?php echo get_template_directory_uri(); ?>/assets/img/form-ok.png" alt=""></div></div></div></div></div></div><div id="pgc_797" class="hidden" style="height:438px;"><div id="virtualc_797" style="height:438px;" class="virtuals"><div class="allContent" style="width:999px;height:438px;"><div id="c_797" class="droppable" style="width:999px;height:438px;"><a id="ac_797" class="ascroll" style="top:-86px;"></a><div class="bi irz" id="i800" style="z-index:167;top:20px;left:0px;"><div class="irz scroll0"><p style="text-align: center; line-height: 30px;"><span style="font-weight: 900; font-size: 45px;"><span style="font-family: Roboto, sans-serif; line-height: 40px;"><span style="color: red;">Акция!</span> При заказе от 3-х кг - электронный термометр в подарок</span></span></p></div></div><div class="bi irz" id="i803" style="z-index:170;top:185px;left:6px;"><div class="irz scroll0"><p style="text-align: center;"><span style="font-family: Roboto, sans-serif; font-size: 19px;"><span style="font-family: Roboto, sans-serif;"><strong><span style="font-size: 21px;">СОВЕРШИТЕ ЗАКАЗ ОТ 3 КГ.</span></strong><br />И компания "Биоферм" подарит Вам универсальный брендовый термометр. Что бы Вы могли убедиться в том что "Биоферм" понастоящему эффективный и высокотехнологичный продукт для вашего хозяйства!</span></span></p></div></div><div class="bi irz" id="i807" style="z-index:172;top:167px;left:710px;"><div class="irz scroll0"><p style="text-align: center;"><strong><span style="font-size: 18px;"><span id="popUpFormZagolovokBIO-9" style="font-family: Roboto, sans-serif;">ПОЛУЧИТЬ ПОДАРОК</span></span></strong></p></div></div><div class="bi" id="i804" style="top:179px;left:385px;z-index:50;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/s-gift-block-v3.png@times=1507903642" width="280" height="204" alt="" title="" class="bl center"></div><div class="bi irz" id="i805" style="top:228px;left:708px;z-index:171;"><div class="irz scroll0"> <style>
-                                .popUpFormBIO-9 {
-                                    width: 300px;
-                                    height: 170px;
-                                    /*        border: 1px solid #333;*/
-                                    position: absolute;
-                                }
-
-                                .popUpForm-NameNumberBIO-9,
-                                .popUpForm-TelefonNumberBIO-9{
-                                    position: relative;
-                                    width: 280px;
-                                    height: 35px;
-                                    display: block;
-                                    font-size: 16px;
-                                    font-family: Roboto, sans-serif;
-                                    color: rgb(0, 0, 0);
-                                    border-radius: 4px 4px 4px 4px;
-                                    border: 1px solid rgb(212,212,212);
-                                    padding: 0 5px 0 5px;
-                                    box-sizing: border-box;
-                                    margin-bottom: 12px;
-                                }
-
-                                .popUpForm-NameNumberBIO-9 {
-                                    background: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon-1.png) 10px center / 22px no-repeat scroll rgb(255, 255, 255); padding: 10px 10px 10px 40px !important;
-                                }
-
-                                .popUpForm-TelefonNumberBIO-9 {
-                                    background: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon-2.png) 10px center / 22px no-repeat scroll rgb(255, 255, 255); padding: 10px 10px 10px 40px !important;
-                                }
-                                .popUpForm-ButtonNumberBIO-9 {
-                                    position: relative;
-                                    width: 280px;
-                                    height: 44px;
-                                    display: block;
-                                    font-size: 22px;
-                                    font-family: Roboto, sans-serif;
-                                    color: rgb(51,51,51);
-                                    border-radius: 10px 10px 10px 10px;
-                                    border: 1px solid rgb(138,138,138);
-                                    background-image: url("<?php echo get_template_directory_uri(); ?>/assets/img/ButtonAnimate2.gif");
-                                    background-repeat: repeat;
-                                    background-attachment: scroll;
-                                    background-size: auto;
-                                    cursor: pointer;
-                                }
-
-
-                            </style>
-
+                        </div></div><div class="bi irz" id="i1101" style="top:265px;left:681px;z-index:150;"><div class="irz scroll0"><img id="formInCallTextIconImageBIO-header-1" style="display: none; position: relative; top: 20px; left: 110px;" src="<?php echo get_template_directory_uri(); ?>/assets/img/form-ok.png" alt=""></div></div></div></div></div></div><div id="pgc_797" class="hidden" style="height:438px;"><div id="virtualc_797" style="height:438px;" class="virtuals"><div class="allContent" style="width:999px;height:438px;"><div id="c_797" class="droppable" style="width:999px;height:438px;"><a id="ac_797" class="ascroll" style="top:-86px;"></a><div class="bi irz" id="i800" style="z-index:167;top:20px;left:0px;"><div class="irz scroll0"><p style="text-align: center; line-height: 30px;"><span style="font-weight: 900; font-size: 45px;"><span style="font-family: Roboto, sans-serif; line-height: 40px;"><span style="color: red;">Акция!</span> При заказе от 3-х кг - электронный термометр в подарок</span></span></p></div></div><div class="bi irz" id="i803" style="z-index:170;top:185px;left:6px;"><div class="irz scroll0"><p style="text-align: center;"><span style="font-family: Roboto, sans-serif; font-size: 19px;"><span style="font-family: Roboto, sans-serif;"><strong><span style="font-size: 21px;">СОВЕРШИТЕ ЗАКАЗ ОТ 3 КГ.</span></strong><br />И компания "Биоферм" подарит Вам универсальный брендовый термометр. Что бы Вы могли убедиться в том что "Биоферм" понастоящему эффективный и высокотехнологичный продукт для вашего хозяйства!</span></span></p></div></div><div class="bi irz" id="i807" style="z-index:172;top:167px;left:710px;"><div class="irz scroll0"><p style="text-align: center;"><strong><span style="font-size: 18px;"><span id="popUpFormZagolovokBIO-9" style="font-family: Roboto, sans-serif;">ПОЛУЧИТЬ ПОДАРОК</span></span></strong></p></div></div><div class="bi" id="i804" style="top:179px;left:385px;z-index:50;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/s-gift-block-v3.png@times=1507903642" width="280" height="204" alt="" title="" class="bl center"></div><div class="bi irz" id="i805" style="top:228px;left:708px;z-index:171;"><div class="irz scroll0">
                             <div class="popUpFormBIO-9" id="formInCallBIO-9">
-                                <form action="javascript:void(null);" method="POST" id="form-BIO-9" onsubmit="popUpFormBIO9()">
-                                    <input class="popUpForm-NameNumberBIO-9" type="text" placeholder="        Введите Ваше имя" name= "name1">
-                                    <input class="popUpForm-TelefonNumberBIO-9" type="text" placeholder="      Введите Ваш телефон" name= "message1">
-                                    <input class="popUpForm-ButtonNumberBIO-9" type="submit" value="Получить подарок" onclick="setTimeout(goAfterFlyBIO9, 200);">
-                                </form>
+                                <?php echo do_shortcode ('[contact-form-7 id="114" title="Hidden Form present"]'); ?>
+
                             </div>
-
-
-
-                            <script type="text/javascript">
-
-                                // Снипет 1 - Название функции которую будем запускать
-                                function popUpFormBIO9() {
-                                    fbq('track', 'Lead');
-                                    var msg   = jQuery('#form-BIO-9').serialize(); //Идентификатор формы с которой работаем
-                                    jQuery.ajax({
-                                        type: 'POST',
-                                        url: 'mail/post-2.php',  //Адрес к обработчику
-                                        data: msg,
-                                        success: function(data) {
-                                            jQuery('.results').html(data);
-                                            //Всплывающее окно
-
-                                        },
-                                        error:  function(xhr, str){
-                                            alert('Возникла ошибка: ' + xhr.responseCode);
-                                        }
-                                    });
-
-                                    //console.log('GodTest');
-
-
-
-
-
-
-                                };
-
-                                // Снипет 2 - Cброс данных формы, динамика после отправки
-
-                                function goAfterFlyBIO9() {
-                                    document.getElementById('form-BIO-9').reset();
-                                    document.getElementById('popUpFormZagolovokBIO-9').innerHTML = ('Заявка успешно принята!');
-                                    document.getElementById('formInCallBIO-9').style.display='none';
-                                    document.getElementById('formInCallTextIconImageBIO-9').style.display='inline-block';
-                                }
-                            </script>
 
                         </div></div><div class="bi irz" id="i808" style="top:223px;left:686px;z-index:173;"><div class="irz scroll0"><img id="formInCallTextIconImageBIO-9" style="display: none; position: relative; top: 20px; left: 110px;" src="<?php echo get_template_directory_uri(); ?>/assets/img/form-ok.png" alt=""></div></div></div></div></div></div>
 
@@ -360,102 +219,13 @@
                     <div class="bi irz" id="i718" style="top:0px;left:0px;z-index:118;">
 
                     </div><a href="#" class="nodec" onclick="javascript:popupClose('c_717');return false;">
-                        <div class="bi" id="i725" style="top:-17px;left:561px;z-index:126;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/725-703-690-677-664-651-638-625-s-button-close-v2.png" width="50" height="50" alt="" title="" class="bl center"></div></a><div class="bi irz" id="i721" style="top:157px;left:84px;z-index:122;"><div class="irz scroll0"><i id="formInCallTextIconOne" class="fa fa-user" style="font-size:50px;"></i></div></div><div class="bi irz" id="i722" style="top:218px;left:85px;z-index:123;"><div class="irz scroll0"><i id="formInCallTextIconTwo" class="fa fa-phone-square" style="font-size:50px;"></i></div></div><div class="bi irz" id="i723" style="top:156px;left:143px;z-index:124;"><div class="irz scroll0"><style>
-                                .form-block1-number-1 {
-                                    width: 300px !im;
-                                    height: 170px;
-                                    /*        border: 1px solid #333;*/
-                                    position: absolute;
-                                }
-
-                                .form1-name-number-1,
-                                .form1-telefon-number-1{
-                                    position: relative;
-                                    width: 345px;
-                                    height: 50px;
-                                    display: block;
-                                    font-size: 16px;
-                                    font-family: Roboto, sans-serif;
-                                    color: rgb(0, 0, 0);
-                                    border-radius: 4px 4px 4px 4px;
-                                    border: 1px solid rgb(212,212,212);
-                                    padding: 0 5px 0 5px;
-                                    box-sizing: border-box;
-                                    margin-bottom: 12px;
-                                }
-
-                                .form1-button-number-1 {
-                                    position: relative;
-                                    width: 345px;
-                                    height: 50px;
-                                    display: block;
-                                    font-size: 22px;
-                                    font-family: Roboto, sans-serif;
-                                    color: rgb(51,51,51);
-                                    border-radius: 10px 10px 10px 10px;
-                                    border: 1px solid rgb(138,138,138);
-                                    background-image: url("assets/img/button-fone.png");
-                                    background-repeat: repeat;
-                                    background-attachment: scroll;
-                                    background-size: auto;
-                                    cursor: pointer;
-                                }
-
-
-                            </style>
+                        <div class="bi" id="i725" style="top:-17px;left:561px;z-index:126;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/725-703-690-677-664-651-638-625-s-button-close-v2.png" width="50" height="50" alt="" title="" class="bl center"></div></a><div class="bi irz" id="i721" style="top:157px;left:84px;z-index:122;"><div class="irz scroll0"><i id="formInCallTextIconOne" class="fa fa-user" style="font-size:50px;"></i></div></div><div class="bi irz" id="i722" style="top:218px;left:85px;z-index:123;"><div class="irz scroll0"><i id="formInCallTextIconTwo" class="fa fa-phone-square" style="font-size:50px;"></i></div></div><div class="bi irz" id="i723" style="top:156px;left:143px;z-index:124;"><div class="irz scroll0">
 
                             <div class="form-block1-number-1" id="formInCall">
-                                <form action="javascript:void(null);" method="POST" id="form1" onsubmit="metcher()">
-
-                                    <input class="form1-name-number-1" type="text" placeholder="                      Введите Ваше имя" name= "name1">
-
-                                    <input  id="rightfoneform1" class="form1-telefon-number-1" type="text" placeholder="             Введите Ваш номер телефона" name= "message1">
-
-
-                                    <input class="form1-button-number-1" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/button-fone.png');" type="submit" value="Отправить" onclick="setTimeout(formmetcher, 200);">
-                                </form>
-
+                                <?php echo do_shortcode ('[contact-form-7 id="110" title="Contact form in navbar"]'); ?>
                             </div>
 
 
-                            <script type="text/javascript">
-
-                                // Снипет 1 - Название функции которую будем запускать
-                                function metcher() {
-                                    fbq('track', 'Lead');
-                                    var msg   = jQuery('#form1').serialize(); //Идентификатор формы с которой работаем
-                                    jQuery.ajax({
-                                        type: 'POST',
-                                        url: 'mail/post-1.php',  //Адрес к обработчику
-                                        data: msg,
-                                        success: function(data) {
-                                            jQuery('.results').html(data);
-                                            //Всплывающее окно
-
-                                        },
-                                        error:  function(xhr, str){
-                                            alert('Возникла ошибка: ' + xhr.responseCode);
-                                        }
-                                    });
-
-                                    console.log('hello');
-
-                                };
-
-                                // Снипет 2 - Cброс данных формы, запуск через onclick в submit
-
-                                function formmetcher() {
-                                    document.getElementById('form1').reset();
-//alert("Ваша заявка успешно отправлена \n Мы свяжемся с Вами как можно быстрее.");
-                                    document.getElementById('formInCallTextUp').innerHTML = ('Заявка успешно принята!');
-                                    document.getElementById('formInCallTextButtom').innerHTML = ('Ваша заявка успешно принята.<br />Менеджер свяжется с Вами как можно быстрее.');
-                                    document.getElementById('formInCallTextIconOne').style.display='none';
-                                    document.getElementById('formInCallTextIconTwo').style.display='none';
-                                    document.getElementById('formInCall').style.display='none';
-                                    document.getElementById('formInCallTextIconImage').style.display='inline-block';
-                                    document.getElementById('formInCallTextButtom').style.fontSize='21px';
-
-                                }
-                            </script></div></div><div class="bi irz" id="i726" style="top:191px;left:520px;z-index:127;"><div class="irz scroll0"><img id="formInCallTextIconImage" style="display: none; position: relative; top: 0px; left: -265px;" id="formInCallTextIconImage" src="<?php echo get_template_directory_uri(); ?>/assets/img/form-ok.png" alt=""></div></div></div></div></div></div>
+                            </div></div><div class="bi irz" id="i726" style="top:191px;left:520px;z-index:127;"><div class="irz scroll0"><img id="formInCallTextIconImage" style="display: none; position: relative; top: 0px; left: -265px;" id="formInCallTextIconImage" src="<?php echo get_template_directory_uri(); ?>/assets/img/form-ok.png" alt=""></div></div></div></div></div></div>
 
 

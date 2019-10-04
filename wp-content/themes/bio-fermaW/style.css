@@ -10,6 +10,280 @@
 	url(assets/fonts/WooCommerce.ttf) format("truetype"),
 	url(assets/fonts/WooCommerce.svg#WooCommerce) format("svg");font-weight:400;font-style:normal}
 
+.form-block1-number-1 {
+    width: 300px !important;
+    height: 170px;
+    /*        border: 1px solid #333;*/
+    position: absolute;
+}
+
+.form1-name-number-1,
+.form1-telefon-number-1{
+    position: relative;
+    width: 345px;
+    height: 50px;
+    display: block;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    color: rgb(0, 0, 0);
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid rgb(212,212,212);
+    padding: 0 5px 0 5px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+
+.form1-button-number-1 {
+    position: relative;
+    width: 345px;
+    height: 50px;
+    display: block;
+    font-size: 22px;
+    font-family: Roboto, sans-serif;
+    color: rgb(51,51,51);
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid rgb(138,138,138);
+    background-image: url("assets/img/button-fone.png");
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+    cursor: pointer;
+}
+
+.popUpFormBIO-header-1 {
+    width: 300px;
+    height: 170px;
+    /*      border: 1px solid #333;   */
+    position: absolute;
+}
+
+.popUpForm-NameNumberBIO-header-1,
+.popUpForm-TelefonNumberBIO-header-1{
+    position: relative;
+    width: 280px;
+    height: 35px;
+    display: block;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    color: rgb(0, 0, 0);
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid rgb(212,212,212);
+    padding: 0 5px 0 5px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.popUpForm-NameNumberBIO-header-1 {
+    background: url(assets/img/icon-1.png) 10px center / 22px no-repeat scroll rgb(255, 255, 255); padding: 10px 10px 10px 40px !important;
+}
+
+.popUpForm-TelefonNumberBIO-header-1 {
+    background: url(assets/img/icon-2.png) 10px center / 22px no-repeat scroll rgb(255, 255, 255); padding: 10px 10px 10px 40px !important;
+}
+.popUpForm-ButtonNumberBIO-header-1 {
+    position: relative;
+    width: 280px;
+    height: 44px;
+    display: block;
+    font-size: 22px;
+    font-family: Roboto, sans-serif;
+    color: rgb(51,51,51);
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid rgb(138,138,138);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+    cursor: pointer;
+}
+
+ .popUpFormBIO-outside-2 {
+     width: 300px;
+     height: 170px;
+     /*      border: 1px solid #333;   */
+     position: absolute;
+ }
+.popUpFormBIO-outside-1 {
+    width: 300px;
+    height: 170px;
+    /*      border: 1px solid #333;   */
+    position: absolute;
+}
+
+.popUpFormBIO-outside-7 {
+    width: 300px;
+    height: 170px;
+    /*      border: 1px solid #333;   */
+    position: absolute;
+ }
+
+.popUpForm-NameNumberBIO-outside-7,
+.popUpForm-TelefonNumberBIO-outside-7,
+.popUpForm-QestNumberBIO-outside-7 {
+    position: relative;
+    width: 280px;
+    height: 35px;
+    display: block;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    color: rgb(0, 0, 0);
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid rgb(212,212,212);
+    padding: 0 5px 0 5px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+
+.popUpForm-NameNumberBIO-outside-7 {
+    background: url(assets/img/icon-1.png) 10px center / 22px no-repeat scroll rgb(255, 255, 255); padding: 10px 10px 10px 40px !important;
+}
+
+.popUpForm-TelefonNumberBIO-outside-7 {
+    background: url(assets/img/icon-2.png) 10px center / 22px no-repeat scroll rgb(255, 255, 255); padding: 10px 10px 10px 40px !important;
+}
+
+.popUpForm-QestNumberBIO-outside-7 {
+    background: url(assets/img/icon-3.png) 10px center / 22px no-repeat scroll rgb(255, 255, 255); padding: 10px 10px 10px 40px !important;
+    height: 60px;
+}
+
+
+.popUpForm-ButtonNumberBIO-outside-7 {
+    position: relative;
+    width: 280px;
+    height: 44px;
+    display: block;
+    font-size: 22px;
+    font-family: Roboto, sans-serif;
+    color: rgb(51,51,51);
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid rgb(138,138,138);
+    background-image: url("assets/img/ButtonAnimate2.gif");
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+    cursor: pointer;
+}
+.popUpFormBIO-outside-8 {
+    width: 870px;
+    height: 170px;
+    /*      border: 1px solid #333;   */
+    position: absolute;
+}
+.popUpForm-NameNumberBIO-outside-8 {
+    position: relative;
+    width: 280px;
+    height: 44px;
+    display: block;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    color: rgb(0, 0, 0);
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid rgb(212,212,212);
+    padding: 0 5px 0 5px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    background: url(assets/img/icon-1.png) 10px center / 22px no-repeat scroll rgb(255, 255, 255); padding: 10px 10px 10px 40px !important;
+}
+
+
+.popUpForm-TelefonNumberBIO-outside-8 {
+    position: relative;
+    width: 280px;
+    height: 44px;
+
+    left: 290px;
+    top: -56px;
+
+    display: block;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    color: rgb(0, 0, 0);
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid rgb(212,212,212);
+    padding: 0 5px 0 5px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    background: url(assets/img/icon-2.png) 10px center / 22px no-repeat scroll rgb(255, 255, 255); padding: 10px 10px 10px 40px !important;
+}
+
+
+.popUpForm-ButtonNumberBIO-outside-8 {
+    position: relative;
+    width: 280px;
+
+    left: 580px;
+    top: -112px;
+
+    height: 44px;
+    display: block;
+    font-size: 22px;
+    font-family: Roboto, sans-serif;
+    color: rgb(51,51,51);
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid rgb(138,138,138);
+    background-image: url("assets/img/ButtonAnimate2.gif");
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+    cursor: pointer;
+}
+.popUpFormBIO-9 {
+    width: 300px;
+    height: 170px;
+    /*        border: 1px solid #333;*/
+    position: absolute;
+}
+
+.popUpForm-NameNumberBIO-9,
+.popUpForm-TelefonNumberBIO-9{
+    position: relative;
+    width: 280px;
+    height: 35px;
+    display: block;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    color: rgb(0, 0, 0);
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid rgb(212,212,212);
+    padding: 0 5px 0 5px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+
+.popUpForm-NameNumberBIO-9 {
+    background: url(assets/img/icon-1.png) 10px center / 22px no-repeat scroll rgb(255, 255, 255); padding: 10px 10px 10px 40px !important;
+}
+
+.popUpForm-TelefonNumberBIO-9 {
+    background: url(assets/img/icon-2.png) 10px center / 22px no-repeat scroll rgb(255, 255, 255); padding: 10px 10px 10px 40px !important;
+}
+.popUpForm-ButtonNumberBIO-9 {
+    position: relative;
+    width: 280px;
+    height: 44px;
+    display: block;
+    font-size: 22px;
+    font-family: Roboto, sans-serif;
+    color: rgb(51,51,51);
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid rgb(138,138,138);
+    background-image: url("assets/img/ButtonAnimate2.gif");
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: auto;
+    cursor: pointer;
+}
+
+
+
+
+
+.wpcf7-form-control.wpcf7-submit.popUpForm-ButtonNumberBIO-header-1 {
+    background-image: url('assets/img/ButtonAnimate2.gif');
+}
+
+
+
 .bi.irz, .bi.irz::before, .bi.irz::after {
     box-sizing: unset;
 }
@@ -96,29 +370,6 @@ div#primary.content-area{
 .woocommerce ul.products li.product a.added_to_cart.wc-forward {
 	display: none;
 }
-
-/*@media (min-width: 768px){*/
-/*	#customer_details{*/
-/*		width: 60%;*/
-/*		float: left;*/
-/*	}*/
-/*	#order_review_heading{*/
-/*		width: 30%;*/
-/*		float: left;*/
-/*	}*/
-/*	#order_review{*/
-/*		width: 40%;*/
-/*		float: left;*/
-/*		padding-right: 50px;*/
-/*	}*/
-/*	.woocommerce table.shop_table td{*/
-/*		width: 50%;*/
-/*	}*/
-/*	.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1,*/
-/*	.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2{*/
-/*		width: 100%;*/
-/*	}*/
-/*}*/
 
 .col-1,
 .col-2 {

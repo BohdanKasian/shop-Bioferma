@@ -157,6 +157,9 @@ function bio_ferma_scripts() {
     wp_deregister_script( 'jquery' );
     wp_register_script( 'jquery', '//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js');
     wp_enqueue_script( 'jquery' );
+
+//    wp_enqueue_script( 'test', get_template_directory_uri().'/test.js', array('jquery'), '',true);
+
     wp_enqueue_script( 'bio-ferma-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array('jquery'), '20151215', true );
 	wp_enqueue_script( 'bio-ferma-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix.js', array('jquery'), '20151215', true );
 	wp_enqueue_script('jquerymin', get_template_directory_uri()."/assets/skinss/js/jcarousel.js", array('jquery'));

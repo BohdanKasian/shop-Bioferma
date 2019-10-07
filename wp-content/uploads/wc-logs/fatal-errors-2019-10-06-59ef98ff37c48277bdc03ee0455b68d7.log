@@ -1,0 +1,24 @@
+2019-10-06T20:24:12+00:00 CRITICAL Uncaught Error: Call to undefined function wp_equeue_style() in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\functions.php:179
+Stack trace:
+#0 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\class-wp-hook.php(286): load_fonts('')
+#1 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\functions.wp-styles.php(52): do_action('wp_print_styles')
+#4 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\class-wp-hook.php(286): wp_print_styles(false)
+#5 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#7 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\general-template.php(2745): do_action('wp_head')
+#8 D:\localRepository в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\functions.php на строке 179
+
+2019-10-06T20:24:17+00:00 CRITICAL Uncaught Error: Call to undefined function wp_equeue_style() in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\functions.php:179
+Stack trace:
+#0 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\class-wp-hook.php(286): load_fonts('')
+#1 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\functions.wp-styles.php(52): do_action('wp_print_styles')
+#4 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\class-wp-hook.php(286): wp_print_styles(false)
+#5 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#7 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\general-template.php(2745): do_action('wp_head')
+#8 D:\localRepository в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-fermaW\functions.php на строке 179
+

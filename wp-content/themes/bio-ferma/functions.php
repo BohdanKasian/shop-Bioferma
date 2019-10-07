@@ -151,6 +151,7 @@ function bio_ferma_scripts() {
     wp_enqueue_style( 'bio-ferma-files-2', get_template_directory_uri().'/assets/files/styles/style-materials.css', array());
     wp_enqueue_style( 'bio-ferma-single-product-style', get_template_directory_uri().'/assets/files/styles/single-product.css', array());
     wp_enqueue_style( 'bio-ferma-shop-style', get_template_directory_uri().'/assets/files/styles/shop-style.css', array());
+    wp_enqueue_style( 'bio-ferma-rightForm-popup-style', get_template_directory_uri().'/assets/files/styles/rightForm-popup.css', array());
     wp_enqueue_style( 'bio-ferma-style', get_template_directory_uri().'/style.css', array());
 
 
@@ -158,8 +159,7 @@ function bio_ferma_scripts() {
     wp_register_script( 'jquery', '//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js');
     wp_enqueue_script( 'jquery' );
 
-//    wp_enqueue_script( 'test', get_template_directory_uri().'/test.js', array('jquery'), '',true);
-
+    wp_enqueue_script( 'rightPopUp', get_template_directory_uri().'/assets/js/rightPopUp.js', array('jquery'), '',true);
     wp_enqueue_script( 'bio-ferma-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array('jquery'), '20151215', true );
 	wp_enqueue_script( 'bio-ferma-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix.js', array('jquery'), '20151215', true );
 	wp_enqueue_script('jquerymin', get_template_directory_uri()."/assets/skinss/js/jcarousel.js", array('jquery'));
@@ -175,6 +175,8 @@ function bio_ferma_scripts() {
 	{
 	  wp_register_style('et-googleRoboto', 'https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic');
 	  wp_register_style('et-googleSans', 'https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=cyrillic');
+	  wp_register_style('et-googleOpensans', 'https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap&subset=cyrillic');
+	  wp_enqueue_style('et-googleOpensans');
 	  wp_enqueue_style( 'et-googleRoboto');
 	  wp_enqueue_style( 'et-googleSans');
 	}

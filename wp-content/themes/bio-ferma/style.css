@@ -392,6 +392,21 @@ div#primary.content-area{
 }
 span.wpcf7-not-valid-tip {
     position: absolute;
-    min-width: 155px;
-    top: -17px;
+    min-width: 278px;
+    top: 34px;
+    font-size: 12px;
+}
+#i723 span.wpcf7-not-valid-tip {
+    top: 49px;
+}
+#i1089 .wpcf7-form-control-wrap.Name span.wpcf7-not-valid-tip,
+#i1932 .wpcf7-form-control-wrap.Name span.wpcf7-not-valid-tip,
+#i1819 .wpcf7-form-control-wrap.Name span.wpcf7-not-valid-tip{
+    top: 46px
+}
+#i1089 .wpcf7-form-control-wrap.Numberphone span.wpcf7-not-valid-tip,
+#i1932 .wpcf7-form-control-wrap.Numberphone span.wpcf7-not-valid-tip,
+#i1819 .wpcf7-form-control-wrap.Numberphone span.wpcf7-not-valid-tip{
+    top: -10px;
+    left: 290px;
 }

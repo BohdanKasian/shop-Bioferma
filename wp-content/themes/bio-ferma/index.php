@@ -1195,497 +1195,53 @@ get_header();
 
 
 
-                       </div></div><div class="bi irz" id="i844" style="top:255px;left:465px;z-index:149;"><div class="irz scroll0"><img id="formInCallTextIconImageBIO-17" style="display: none; position: relative; top: 20px; left: 110px;" src="<?php echo get_template_directory_uri(); ?>/assets/img/form-ok.png" alt=""></div></div></div></div></div></div><div id="pgc_842" class="hidden" style="height:56px;"><div id="virtualc_842" style="height:56px;" class="virtuals"><div class="allContent" style="width:999px;height:56px;"><div id="c_842" class="droppable" style="width:999px;height:56px;"><a id="ac_842" class="ascroll" style="top:-86px;"></a></div></div></div></div><div id="pgc_717" class="hidden" style="height:373px;"><div id="virtualc_717" style="height:373px;" class="virtuals"><div class="allContent" style="width:601px;height:373px;"><div id="c_717" class="droppable" style="width:601px;height:373px;"><a id="ac_717" class="ascroll" style="top:-86px;"></a><div class="bi irz" id="i719" style="z-index:120;top:6px;left:-1px;"><div class="irz scroll0"><p style="text-align: center;"><span id="formInCallTextUp" style="font-family: Roboto, sans-serif; font-size: 40px; font-weight: bold;">Заказать звонок</span></p></div></div><div class="bi irz" id="i720" style="z-index:121;top:93px;left:0px;"><div class="irz scroll0"><p style="text-align: center;"><span id="formInCallTextButtom" style="font-family: 'PT Sans Caption', sans-serif; font-size: 17px; font-weight: 600;">Введите имя, номер телефона, нажмите "Отправить",  и наш менеджер свяжется с вами в ближайшее время.</span></p></div></div><div class="bi irz" id="i724" style="z-index:125;top:342px;left:0px;"><div class="irz scroll0"><h2 style="text-align: center;"><span style="font-family: Roboto, sans-serif; font-size: 12px; font-weight: lighter;">Ваши контактные данные в безопасности и не будут переданы третьим лицам</span></h2></div></div><div class="bi irz" id="i718" style="top:0px;left:0px;z-index:118;"></div><a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/images/loading.gif.html#" class="nodec" onclick="javascript:popupClose('c_717');return false;"><div class="bi" id="i725" style="top:-17px;left:561px;z-index:126;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/725-703-690-677-664-651-638-625-s-button-close-v2.png@times=1493804883" width="50" height="50" alt="" title="" class="bl center"></div></a><div class="bi irz" id="i721" style="top:157px;left:84px;z-index:122;"><div class="irz scroll0"><i id="formInCallTextIconOne" class="fa fa-user" style="font-size:50px;"></i></div></div><div class="bi irz" id="i722" style="top:218px;left:85px;z-index:123;"><div class="irz scroll0"><i id="formInCallTextIconTwo" class="fa fa-phone-square" style="font-size:50px;"></i></div></div><div class="bi irz" id="i723" style="top:156px;left:143px;z-index:124;"><div class="irz scroll0"><style>
-                            .form-block1-number-1 {
-                                width: 300px !im;
-                                height: 170px;
-                                /*        border: 1px solid #333;*/
-                                position: absolute;
-                            }
-
-                            .form1-name-number-1,
-                            .form1-telefon-number-1{
-                                position: relative;
-                                width: 345px;
-                                height: 50px;
-                                display: block;
-                                font-size: 16px;
-                                font-family: Roboto, sans-serif;
-                                color: rgb(0, 0, 0);
-                                border-radius: 4px 4px 4px 4px;
-                                border: 1px solid rgb(212,212,212);
-                                padding: 0 5px 0 5px;
-                                box-sizing: border-box;
-                                margin-bottom: 12px;
-                            }
-
-                            .form1-button-number-1 {
-                                position: relative;
-                                width: 345px;
-                                height: 50px;
-                                display: block;
-                                font-size: 22px;
-                                font-family: Roboto, sans-serif;
-                                color: rgb(51,51,51);
-                                border-radius: 10px 10px 10px 10px;
-                                border: 1px solid rgb(138,138,138);
-                                background-image: url("<?php echo get_template_directory_uri(); ?>/assets/img/button-fone.png");
-                                background-repeat: repeat;
-                                background-attachment: scroll;
-                                background-size: auto;
-                                cursor: pointer;
-                            }
-
-
-                        </style>
-
+                       </div></div><div class="bi irz" id="i844" style="top:255px;left:465px;z-index:149;"><div class="irz scroll0"><img id="formInCallTextIconImageBIO-17" style="display: none; position: relative; top: 20px; left: 110px;" src="<?php echo get_template_directory_uri(); ?>/assets/img/form-ok.png" alt=""></div></div></div></div></div></div><div id="pgc_842" class="hidden" style="height:56px;"><div id="virtualc_842" style="height:56px;" class="virtuals"><div class="allContent" style="width:999px;height:56px;"><div id="c_842" class="droppable" style="width:999px;height:56px;"><a id="ac_842" class="ascroll" style="top:-86px;"></a></div></div></div></div><div id="pgc_717" class="hidden" style="height:373px;"><div id="virtualc_717" style="height:373px;" class="virtuals"><div class="allContent" style="width:601px;height:373px;"><div id="c_717" class="droppable" style="width:601px;height:373px;"><a id="ac_717" class="ascroll" style="top:-86px;"></a><div class="bi irz" id="i719" style="z-index:120;top:6px;left:-1px;"><div class="irz scroll0"><p style="text-align: center;"><span id="formInCallTextUp" style="font-family: Roboto, sans-serif; font-size: 40px; font-weight: bold;">Заказать звонок</span></p></div></div><div class="bi irz" id="i720" style="z-index:121;top:93px;left:0px;"><div class="irz scroll0"><p style="text-align: center;"><span id="formInCallTextButtom" style="font-family: 'PT Sans Caption', sans-serif; font-size: 17px; font-weight: 600;">Введите имя, номер телефона, нажмите "Отправить",  и наш менеджер свяжется с вами в ближайшее время.</span></p></div></div><div class="bi irz" id="i724" style="z-index:125;top:342px;left:0px;"><div class="irz scroll0"><h2 style="text-align: center;"><span style="font-family: Roboto, sans-serif; font-size: 12px; font-weight: lighter;">Ваши контактные данные в безопасности и не будут переданы третьим лицам</span></h2></div></div><div class="bi irz" id="i718" style="top:0px;left:0px;z-index:118;"></div><a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/images/loading.gif.html#" class="nodec" onclick="javascript:popupClose('c_717');return false;"><div class="bi" id="i725" style="top:-17px;left:561px;z-index:126;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/725-703-690-677-664-651-638-625-s-button-close-v2.png@times=1493804883" width="50" height="50" alt="" title="" class="bl center"></div></a><div class="bi irz" id="i721" style="top:157px;left:84px;z-index:122;"><div class="irz scroll0"><i id="formInCallTextIconOne" class="fa fa-user" style="font-size:50px;"></i></div></div><div class="bi irz" id="i722" style="top:218px;left:85px;z-index:123;"><div class="irz scroll0"><i id="formInCallTextIconTwo" class="fa fa-phone-square" style="font-size:50px;"></i></div></div>
+                <div class="bi irz" id="i723" style="top:156px;left:143px;z-index:124;"><div class="irz scroll0">
                         <div class="form-block1-number-1" id="formInCall">
-                            <form action="javascript:void(null);" method="POST" id="form1" onsubmit="metcher()">
-
-                                <input class="form1-name-number-1" type="text" placeholder="                      Введите Ваше имя" name= "name1">
-
-                                <input  id="rightfoneform1" class="form1-telefon-number-1" type="text" placeholder="             Введите Ваш номер телефона" name= "message1">
-
-
-                                <input class="form1-button-number-1" type="submit" value="Отправить" onclick="setTimeout(formmetcher, 200);">
-                            </form>
+                            <?php echo do_shortcode ('[contact-form-7 id="110" title="Contact form in navbar"]'); ?>
 
                         </div>
 
 
-                        <script type="text/javascript">
-
-                            // Снипет 1 - Название функции которую будем запускать
-                            function metcher() {
-                                fbq('track', 'Lead');
-                                var msg   = $('#form1').serialize(); //Идентификатор формы с которой работаем
-                                $.ajax({
-                                    type: 'POST',
-                                    url: 'mail/post-1.php',  //Адрес к обработчику
-                                    data: msg,
-                                    success: function(data) {
-                                        $('.results').html(data);
-                                        //Всплывающее окно
-
-                                    },
-                                    error:  function(xhr, str){
-                                        alert('Возникла ошибка: ' + xhr.responseCode);
-                                    }
-                                });
-
-                                console.log('hello');
-
-                            };
-
-                            // Снипет 2 - Cброс данных формы, запуск через onclick в submit
-
-                            function formmetcher() {
-                                document.getElementById('form1').reset();
-//alert("Ваша заявка успешно отправлена \n Мы свяжемся с Вами как можно быстрее.");
-                                document.getElementById('formInCallTextUp').innerHTML = ('Заявка успешно принята!');
-                                document.getElementById('formInCallTextButtom').innerHTML = ('Ваша заявка успешно принята.<br />Менеджер свяжется с Вами как можно быстрее.');
-                                document.getElementById('formInCallTextIconOne').style.display='none';
-                                document.getElementById('formInCallTextIconTwo').style.display='none';
-                                document.getElementById('formInCall').style.display='none';
-                                document.getElementById('formInCallTextIconImage').style.display='inline-block';
-                                document.getElementById('formInCallTextButtom').style.fontSize='21px';
-
-                            }
-                        </script></div></div><div class="bi irz" id="i726" style="top:191px;left:520px;z-index:127;"><div class="irz scroll0"><img id="formInCallTextIconImage" style="display: none; position: relative; top: 0px; left: -265px;" id="formInCallTextIconImage" src="<?php echo get_template_directory_uri(); ?>/assets/img/form-ok.png" alt=""></div></div></div></div></div></div><div id="pgc_757" class="hidden" style="height:61px;"><div id="virtualc_757" style="height:61px;" class="virtuals"><div class="allContent" style="width:999px;height:61px;"><div id="c_757" class="droppable" style="width:999px;height:61px;"><a id="ac_757" class="ascroll" style="top:-86px;"></a></div></div></div></div><div id="pgc_902" class="hidden" style="height:373px;"><div id="virtualc_902" style="height:373px;" class="virtuals"><div class="allContent" style="width:602px;height:373px;"><div id="c_902" class="droppable" style="width:602px;height:373px;"><a id="ac_902" class="ascroll" style="top:-86px;"></a><div class="bi irz" id="i909" style="z-index:120;top:8px;left:0px;"><div class="irz scroll0"><p style="text-align: center;"><span id="formInCallTextUp3" style="font-family: Roboto, sans-serif; font-size: 40px; font-weight: bold;">Узнайте стоимость</span></p></div></div><div class="bi irz" id="i910" style="z-index:121;top:93px;left:0px;"><div class="irz scroll0"><p style="text-align: center;"><span id="formInCallTextButtom3" style="font-family: 'PT Sans Caption', sans-serif; font-size: 17px; font-weight: 600;">Введите имя, номер телефона, нажмите "Отправить",  и наш менеджер подскажет Вам актуальные цены на нашу продукцию!</span></p></div></div><div class="bi irz" id="i911" style="z-index:125;top:342px;left:0px;"><div class="irz scroll0"><h2 style="text-align: center;"><span style="font-family: Roboto, sans-serif; font-size: 12px; font-weight: lighter;">Ваши контактные данные в безопасности и не будут переданы третьим лицам</span></h2></div></div><div class="bi irz" id="i908" style="top:0px;left:0px;z-index:118;"></div><a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/images/loading.gif.html#" class="nodec" onclick="javascript:popupClose('c_902');return false;"><div class="bi" id="i907" style="top:-17px;left:561px;z-index:126;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/907-725-703-690-677-664-651-638-625-s-button-close-v2.png@times=1508757063" width="50" height="50" alt="" title="" class="bl center"></div></a><div class="bi irz" id="i903" style="top:157px;left:84px;z-index:122;"><div class="irz scroll0"><i id="formInCallTextIconOne3" class="fa fa-user" style="font-size:50px;"></i></div></div><div class="bi irz" id="i904" style="top:218px;left:85px;z-index:123;"><div class="irz scroll0"><i id="formInCallTextIconTwo3" class="fa fa-phone-square" style="font-size:50px;"></i></div></div><div class="bi irz" id="i905" style="top:156px;left:143px;z-index:124;"><div class="irz scroll0"><style>
-                            .form-block1-number3 {
-                                width: 300px !im;
-                                height: 170px;
-                                /*        border: 1px solid #333;*/
-                                position: absolute;
-                            }
-
-                            .form1-name-number3,
-                            .form1-telefon-number3{
-                                position: relative;
-                                width: 345px;
-                                height: 50px;
-                                display: block;
-                                font-size: 16px;
-                                font-family: Roboto, sans-serif;
-                                color: rgb(0, 0, 0);
-                                border-radius: 4px 4px 4px 4px;
-                                border: 1px solid rgb(212,212,212);
-                                padding: 0 5px 0 5px;
-                                box-sizing: border-box;
-                                margin-bottom: 12px;
-                            }
-
-                            .form1-button-number3 {
-                                position: relative;
-                                width: 345px;
-                                height: 50px;
-                                display: block;
-                                font-size: 22px;
-                                font-family: Roboto, sans-serif;
-                                color: rgb(51,51,51);
-                                border-radius: 10px 10px 10px 10px;
-                                border: 1px solid rgb(138,138,138);
-                                background-image: url("<?php echo get_template_directory_uri(); ?>/assets/img/button-fone.png");
-                                background-repeat: repeat;
-                                background-attachment: scroll;
-                                background-size: auto;
-                                cursor: pointer;
-                            }
-
-
-                        </style>
+                        </div></div><div class="bi irz" id="i726" style="top:191px;left:520px;z-index:127;"><div class="irz scroll0"><img id="formInCallTextIconImage" style="display: none; position: relative; top: 0px; left: -265px;" id="formInCallTextIconImage" src="<?php echo get_template_directory_uri(); ?>/assets/img/form-ok.png" alt=""></div></div></div></div></div></div><div id="pgc_757" class="hidden" style="height:61px;"><div id="virtualc_757" style="height:61px;" class="virtuals"><div class="allContent" style="width:999px;height:61px;"><div id="c_757" class="droppable" style="width:999px;height:61px;"><a id="ac_757" class="ascroll" style="top:-86px;"></a></div></div></div></div><div id="pgc_902" class="hidden" style="height:373px;"><div id="virtualc_902" style="height:373px;" class="virtuals"><div class="allContent" style="width:602px;height:373px;"><div id="c_902" class="droppable" style="width:602px;height:373px;"><a id="ac_902" class="ascroll" style="top:-86px;"></a><div class="bi irz" id="i909" style="z-index:120;top:8px;left:0px;"><div class="irz scroll0"><p style="text-align: center;"><span id="formInCallTextUp3" style="font-family: Roboto, sans-serif; font-size: 40px; font-weight: bold;">Узнайте стоимость</span></p></div></div><div class="bi irz" id="i910" style="z-index:121;top:93px;left:0px;"><div class="irz scroll0"><p style="text-align: center;"><span id="formInCallTextButtom3" style="font-family: 'PT Sans Caption', sans-serif; font-size: 17px; font-weight: 600;">Введите имя, номер телефона, нажмите "Отправить",  и наш менеджер подскажет Вам актуальные цены на нашу продукцию!</span></p></div></div><div class="bi irz" id="i911" style="z-index:125;top:342px;left:0px;"><div class="irz scroll0"><h2 style="text-align: center;"><span style="font-family: Roboto, sans-serif; font-size: 12px; font-weight: lighter;">Ваши контактные данные в безопасности и не будут переданы третьим лицам</span></h2></div></div><div class="bi irz" id="i908" style="top:0px;left:0px;z-index:118;"></div><a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/images/loading.gif.html#" class="nodec" onclick="javascript:popupClose('c_902');return false;"><div class="bi" id="i907" style="top:-17px;left:561px;z-index:126;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/907-725-703-690-677-664-651-638-625-s-button-close-v2.png@times=1508757063" width="50" height="50" alt="" title="" class="bl center"></div></a><div class="bi irz" id="i903" style="top:157px;left:84px;z-index:122;"><div class="irz scroll0"><i id="formInCallTextIconOne3" class="fa fa-user" style="font-size:50px;"></i></div></div><div class="bi irz" id="i904" style="top:218px;left:85px;z-index:123;"><div class="irz scroll0"><i id="formInCallTextIconTwo3" class="fa fa-phone-square" style="font-size:50px;"></i></div></div><div class="bi irz" id="i905" style="top:156px;left:143px;z-index:124;"><div class="irz scroll0">
 
                         <div class="form-block1-number3" id="formInCall3">
-                            <form action="javascript:void(null);" method="POST" id="form3" onsubmit="metcher3()">
-
-                                <input class="form1-name-number3" type="text" placeholder="                      Введите Ваше имя" name= "name3">
-
-                                <input  id="rightfoneform3" class="form1-telefon-number3" type="text" placeholder="             Введите Ваш номер телефона" name= "message3">
-
-
-                                <input class="form1-button-number3" type="submit" value="Узнать цену" onclick="setTimeout(formmetcher3, 200);">
-                            </form>
+                            <?php echo do_shortcode ('[contact-form-7 id="110" title="Contact form in navbar"]'); ?>
 
                         </div>
 
 
-                        <script type="text/javascript">
-
-                            // Снипет 1 - Название функции которую будем запускать
-                            function metcher3() {
-                                fbq('track', 'Lead');
-                                var msg   = $('#form3').serialize(); //Идентификатор формы с которой работаем
-                                $.ajax({
-                                    type: 'POST',
-                                    url: 'mail/post-3.php',  //Адрес к обработчику
-                                    data: msg,
-                                    success: function(data) {
-                                        $('.results').html(data);
-                                        //Всплывающее окно
-
-                                    },
-                                    error:  function(xhr, str){
-                                        alert('Возникла ошибка: ' + xhr.responseCode);
-                                    }
-                                });
-
-                                console.log('hello');
-
-                            };
-
-                            // Снипет 2 - Cброс данных формы, запуск через onclick в submit
-
-                            function formmetcher3() {
-                                document.getElementById('form3').reset();
-//alert("Ваша заявка успешно отправлена \n Мы свяжемся с Вами как можно быстрее.");
-                                document.getElementById('formInCallTextUp3').innerHTML = ('Заявка успешно принята!');
-                                document.getElementById('formInCallTextButtom3').innerHTML = ('Ваша заявка успешно принята.<br />Менеджер свяжется с Вами как можно быстрее.');
-                                document.getElementById('formInCallTextIconOne3').style.display='none';
-                                document.getElementById('formInCallTextIconTwo3').style.display='none';
-                                document.getElementById('formInCall3').style.display='none';
-                                document.getElementById('formInCallTextIconImage3').style.display='inline-block';
-                                document.getElementById('formInCallTextButtom3').style.fontSize='21px';
-
-                            }
-                        </script></div></div><div class="bi irz" id="i906" style="top:191px;left:520px;z-index:127;"><div class="irz scroll0"><img id="formInCallTextIconImage3" style="display: none; position: relative; top: 0px; left: -265px;" id="formInCallTextIconImage3" src="<?php echo get_template_directory_uri(); ?>/assets/img/form-ok.png" alt=""></div></div></div></div></div></div><div id="pgc_912" class="hidden" style="height:61px;"><div id="virtualc_912" style="height:61px;" class="virtuals"><div class="allContent" style="width:999px;height:61px;"><div id="c_912" class="droppable" style="width:999px;height:61px;"><a id="ac_912" class="ascroll" style="top:-86px;"></a></div></div></div></div><div id="pgc_913" class="hidden" style="height:373px;"><div id="virtualc_913" style="height:373px;" class="virtuals"><div class="allContent" style="width:601px;height:373px;"><div id="c_913" class="droppable" style="width:601px;height:373px;"><a id="ac_913" class="ascroll" style="top:-86px;"></a><div class="bi irz" id="i922" style="z-index:120;top:8px;left:0px;"><div class="irz scroll0"><p style="text-align: center;"><span id="formInCallTextUp4" style="font-family: Roboto, sans-serif; font-size: 40px; font-weight: bold;">Инструкция по запуску</span></p></div></div><div class="bi irz" id="i920" style="z-index:121;top:82px;left:50px;"><div class="irz scroll0"><p style="text-align: center;"><span id="formInCallTextButtom4" style="font-family: 'PT Sans Caption', sans-serif; font-size: 17px; font-weight: 600;">Введите имя, номер телефона, нажмите "Отправить",  для загрузки инструкции по запуску подстилки "БиоФерм"</span></p></div></div><div class="bi irz" id="i921" style="z-index:125;top:342px;left:0px;"><div class="irz scroll0"><h2 style="text-align: center;"><span style="font-family: Roboto, sans-serif; font-size: 12px; font-weight: lighter;">Ваши контактные данные в безопасности и не будут переданы третьим лицам</span></h2></div></div><div class="bi irz" id="i919" style="top:0px;left:0px;z-index:118;"></div><a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/images/loading.gif.html#" class="nodec" onclick="javascript:popupClose('c_913');return false;"><div class="bi" id="i918" style="top:-17px;left:561px;z-index:126;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/918-907-725-703-690-677-664-651-638-625-s-button-close-v2.png@times=1508761812" width="50" height="50" alt="" title="" class="bl center"></div></a><div class="bi irz" id="i914" style="top:157px;left:84px;z-index:122;"><div class="irz scroll0"><i id="formInCallTextIconOne4" class="fa fa-user" style="font-size:50px;"></i></div></div><div class="bi irz" id="i915" style="top:218px;left:85px;z-index:123;"><div class="irz scroll0"><i id="formInCallTextIconTwo4" class="fa fa-phone-square" style="font-size:50px;"></i></div></div><div class="bi irz" id="i916" style="top:156px;left:143px;z-index:124;"><div class="irz scroll0"><style>
-                            .form-block1-number4 {
-                                width: 300px !im;
-                                height: 170px;
-                                /*        border: 1px solid #333;*/
-                                position: absolute;
-                            }
-
-                            .form1-name-number4,
-                            .form1-telefon-number4{
-                                position: relative;
-                                width: 345px;
-                                height: 50px;
-                                display: block;
-                                font-size: 16px;
-                                font-family: Roboto, sans-serif;
-                                color: rgb(0, 0, 0);
-                                border-radius: 4px 4px 4px 4px;
-                                border: 1px solid rgb(212,212,212);
-                                padding: 0 5px 0 5px;
-                                box-sizing: border-box;
-                                margin-bottom: 12px;
-                            }
-
-                            .form1-button-number4 {
-                                position: relative;
-                                width: 345px;
-                                height: 50px;
-                                display: block;
-                                font-size: 22px;
-                                font-family: Roboto, sans-serif;
-                                color: rgb(51,51,51);
-                                border-radius: 10px 10px 10px 10px;
-                                border: 1px solid rgb(138,138,138);
-                                background-image: url("<?php echo get_template_directory_uri(); ?>/assets/img/button-fone.png");
-                                background-repeat: repeat;
-                                background-attachment: scroll;
-                                background-size: auto;
-                                cursor: pointer;
-                            }
-
-
-                        </style>
+                        </div></div><div class="bi irz" id="i906" style="top:191px;left:520px;z-index:127;"><div class="irz scroll0"><img id="formInCallTextIconImage3" style="display: none; position: relative; top: 0px; left: -265px;" id="formInCallTextIconImage3" src="<?php echo get_template_directory_uri(); ?>/assets/img/form-ok.png" alt=""></div></div></div></div></div></div><div id="pgc_912" class="hidden" style="height:61px;"><div id="virtualc_912" style="height:61px;" class="virtuals"><div class="allContent" style="width:999px;height:61px;"><div id="c_912" class="droppable" style="width:999px;height:61px;"><a id="ac_912" class="ascroll" style="top:-86px;"></a></div></div></div></div><div id="pgc_913" class="hidden" style="height:373px;"><div id="virtualc_913" style="height:373px;" class="virtuals"><div class="allContent" style="width:601px;height:373px;"><div id="c_913" class="droppable" style="width:601px;height:373px;"><a id="ac_913" class="ascroll" style="top:-86px;"></a><div class="bi irz" id="i922" style="z-index:120;top:8px;left:0px;"><div class="irz scroll0"><p style="text-align: center;"><span id="formInCallTextUp4" style="font-family: Roboto, sans-serif; font-size: 40px; font-weight: bold;">Инструкция по запуску</span></p></div></div><div class="bi irz" id="i920" style="z-index:121;top:82px;left:50px;"><div class="irz scroll0"><p style="text-align: center;"><span id="formInCallTextButtom4" style="font-family: 'PT Sans Caption', sans-serif; font-size: 17px; font-weight: 600;">Введите имя, номер телефона, нажмите "Отправить",  для загрузки инструкции по запуску подстилки "БиоФерм"</span></p></div></div><div class="bi irz" id="i921" style="z-index:125;top:342px;left:0px;"><div class="irz scroll0"><h2 style="text-align: center;"><span style="font-family: Roboto, sans-serif; font-size: 12px; font-weight: lighter;">Ваши контактные данные в безопасности и не будут переданы третьим лицам</span></h2></div></div><div class="bi irz" id="i919" style="top:0px;left:0px;z-index:118;"></div><a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/images/loading.gif.html#" class="nodec" onclick="javascript:popupClose('c_913');return false;"><div class="bi" id="i918" style="top:-17px;left:561px;z-index:126;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/918-907-725-703-690-677-664-651-638-625-s-button-close-v2.png@times=1508761812" width="50" height="50" alt="" title="" class="bl center"></div></a><div class="bi irz" id="i914" style="top:157px;left:84px;z-index:122;"><div class="irz scroll0"><i id="formInCallTextIconOne4" class="fa fa-user" style="font-size:50px;"></i></div></div><div class="bi irz" id="i915" style="top:218px;left:85px;z-index:123;"><div class="irz scroll0"><i id="formInCallTextIconTwo4" class="fa fa-phone-square" style="font-size:50px;"></i></div></div><div class="bi irz" id="i916" style="top:156px;left:143px;z-index:124;"><div class="irz scroll0">
 
                         <div class="form-block1-number4" id="formInCall4">
-                            <form action="javascript:void(null);" method="POST" id="form4" onsubmit="metcher4()">
-
-                                <input class="form1-name-number4" type="text" placeholder="                      Введите Ваше имя" name= "name4">
-
-                                <input  id="rightfoneform4" class="form1-telefon-number4" type="text" placeholder="             Введите Ваш номер телефона" name= "message4">
-
-
-                                <input class="form1-button-number3" type="submit" value="Отправить" onclick="setTimeout(formmetcher4, 200);">
-                            </form>
+                            <?php echo do_shortcode ('[contact-form-7 id="110" title="Contact form in navbar"]'); ?>
 
                         </div>
 
-
-                        <script type="text/javascript">
-
-                            // Снипет 1 - Название функции которую будем запускать
-                            function metcher4() {
-                                fbq('track', 'Lead');
-                                var msg   = $('#form4').serialize(); //Идентификатор формы с которой работаем
-                                $.ajax({
-                                    type: 'POST',
-                                    url: 'mail/post-4.php',  //Адрес к обработчику
-                                    data: msg,
-                                    success: function(data) {
-                                        $('.results').html(data);
-                                        //Всплывающее окно
-
-                                    },
-                                    error:  function(xhr, str){
-                                        alert('Возникла ошибка: ' + xhr.responseCode);
-                                    }
-                                });
-
-                                console.log('hello');
-
-                            };
-
-                            // Снипет 2 - Cброс данных формы, запуск через onclick в submit
-
-                            function formmetcher4() {
-                                document.getElementById('form4').reset();
-//alert("Ваша заявка успешно отправлена \n Мы свяжемся с Вами как можно быстрее.");
-                                document.getElementById('formInCallTextUp4').innerHTML = ('Заявка успешно принята!');
-                                document.getElementById('formInCallTextButtom4').innerHTML = ('Спасибо за Ваш запрос.<br />Ссылка для скачивания ниже.');
-                                document.getElementById('formInCallTextIconOne4').style.display='none';
-                                document.getElementById('formInCallTextIconTwo4').style.display='none';
-                                document.getElementById('formInCall4').style.display='none';
-                                document.getElementById('formInCallTextIconImage4').style.display='inline-block';
-                                document.getElementById('formInCallLinkForDownload4').style.display='inline-block';
-                                document.getElementById('formInCallTextButtom4').style.fontSize='21px';
-
-                            }
-                        </script></div></div><div class="bi irz" id="i917" style="top:191px;left:520px;z-index:127;"><div class="irz scroll0"><img id="formInCallTextIconImage4" style="display: none; position: relative; top: -30px; left: -265px;" id="formInCallTextIconImage4" src="<?php echo get_template_directory_uri(); ?>/assets/img/form-ok.png" alt="">
+                    </div></div><div class="bi irz" id="i917" style="top:191px;left:520px;z-index:127;"><div class="irz scroll0"><img id="formInCallTextIconImage4" style="display: none; position: relative; top: -30px; left: -265px;" id="formInCallTextIconImage4" src="<?php echo get_template_directory_uri(); ?>/assets/img/form-ok.png" alt="">
                         <div id="formInCallLinkForDownload4" style="display: none; position: relative; top: -21px; left: -253px;">
                             <a style="font-family: Roboto; font-size: 18px; text-decoration: none; color: #74A612; border-bottom: 1px dashed #74A612;" href="<?php echo get_template_directory_uri(); ?>/assets/files/pdf/Startup_Instructions.pdf">Скачать</a>
                         </div></div></div></div></div></div></div>
-    <div id="pgc_925" class="hidden" style="height:61px;"><div id="virtualc_925" style="height:61px;" class="virtuals"><div class="allContent" style="width:999px;height:61px;"><div id="c_925" class="droppable" style="width:999px;height:61px;"><a id="ac_925" class="ascroll" style="top:-86px;"></a></div></div></div></div><div id="pgc_926" class="hidden" style="height:373px;"><div id="virtualc_926" style="height:373px;" class="virtuals"><div class="allContent" style="width:601px;height:373px;"><div id="c_926" class="droppable" style="width:601px;height:373px;"><a id="ac_926" class="ascroll" style="top:-86px;"></a><div class="bi irz" id="i935" style="z-index:120;top:8px;left:0px;"><div class="irz scroll0"><p style="text-align: center;"><span id="formInCallTextUp5" style="font-family: Roboto, sans-serif; font-size: 40px; font-weight: bold;">Нормы заселения</span></p></div></div><div class="bi irz" id="i933" style="z-index:121;top:82px;left:50px;"><div class="irz scroll0"><p style="text-align: center;"><span id="formInCallTextButtom5" style="font-family: 'PT Sans Caption', sans-serif; font-size: 17px; font-weight: 600;">Введите имя, номер телефона, нажмите "Отправить",  для загрузки информации по нормам заселения для подстилки "БиоФерм"</span></p></div></div><div class="bi irz" id="i934" style="z-index:125;top:342px;left:0px;"><div class="irz scroll0"><h2 style="text-align: center;"><span style="font-family: Roboto, sans-serif; font-size: 12px; font-weight: lighter;">Ваши контактные данные в безопасности и не будут переданы третьим лицам</span></h2></div></div><div class="bi irz" id="i932" style="top:0px;left:0px;z-index:118;"></div><a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/images/loading.gif.html#" class="nodec" onclick="javascript:popupClose('c_926');return false;"><div class="bi" id="i931" style="top:-17px;left:561px;z-index:126;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/931-918-907-725-703-690-677-664-651-638-625-s-button-close-v2.png@times=1508767467" width="50" height="50" alt="" title="" class="bl center"></div></a><div class="bi irz" id="i927" style="top:157px;left:84px;z-index:122;"><div class="irz scroll0"><i id="formInCallTextIconOne5" class="fa fa-user" style="font-size:50px;"></i></div></div><div class="bi irz" id="i928" style="top:218px;left:85px;z-index:123;"><div class="irz scroll0"><i id="formInCallTextIconTwo5" class="fa fa-phone-square" style="font-size:50px;"></i></div></div><div class="bi irz" id="i929" style="top:156px;left:143px;z-index:124;"><div class="irz scroll0"><style>
-                            .form-block1-number5 {
-                                width: 300px !im;
-                                height: 170px;
-                                /*        border: 1px solid #333;*/
-                                position: absolute;
-                            }
-
-                            .form1-name-number5,
-                            .form1-telefon-number5{
-                                position: relative;
-                                width: 345px;
-                                height: 50px;
-                                display: block;
-                                font-size: 16px;
-                                font-family: Roboto, sans-serif;
-                                color: rgb(0, 0, 0);
-                                border-radius: 4px 4px 4px 4px;
-                                border: 1px solid rgb(212,212,212);
-                                padding: 0 5px 0 5px;
-                                box-sizing: border-box;
-                                margin-bottom: 12px;
-                            }
-
-                            .form1-button-number5 {
-                                position: relative;
-                                width: 345px;
-                                height: 50px;
-                                display: block;
-                                font-size: 22px;
-                                font-family: Roboto, sans-serif;
-                                color: rgb(51,51,51);
-                                border-radius: 10px 10px 10px 10px;
-                                border: 1px solid rgb(138,138,138);
-                                background-image: url("<?php echo get_template_directory_uri(); ?>/assets/img/button-fone.png");
-                                background-repeat: repeat;
-                                background-attachment: scroll;
-                                background-size: auto;
-                                cursor: pointer;
-                            }
-
-
-                        </style>
+    <div id="pgc_925" class="hidden" style="height:61px;"><div id="virtualc_925" style="height:61px;" class="virtuals"><div class="allContent" style="width:999px;height:61px;"><div id="c_925" class="droppable" style="width:999px;height:61px;"><a id="ac_925" class="ascroll" style="top:-86px;"></a></div></div></div></div><div id="pgc_926" class="hidden" style="height:373px;"><div id="virtualc_926" style="height:373px;" class="virtuals"><div class="allContent" style="width:601px;height:373px;"><div id="c_926" class="droppable" style="width:601px;height:373px;"><a id="ac_926" class="ascroll" style="top:-86px;"></a><div class="bi irz" id="i935" style="z-index:120;top:8px;left:0px;"><div class="irz scroll0"><p style="text-align: center;"><span id="formInCallTextUp5" style="font-family: Roboto, sans-serif; font-size: 40px; font-weight: bold;">Нормы заселения</span></p></div></div><div class="bi irz" id="i933" style="z-index:121;top:82px;left:50px;"><div class="irz scroll0"><p style="text-align: center;"><span id="formInCallTextButtom5" style="font-family: 'PT Sans Caption', sans-serif; font-size: 17px; font-weight: 600;">Введите имя, номер телефона, нажмите "Отправить",  для загрузки информации по нормам заселения для подстилки "БиоФерм"</span></p></div></div><div class="bi irz" id="i934" style="z-index:125;top:342px;left:0px;"><div class="irz scroll0"><h2 style="text-align: center;"><span style="font-family: Roboto, sans-serif; font-size: 12px; font-weight: lighter;">Ваши контактные данные в безопасности и не будут переданы третьим лицам</span></h2></div></div><div class="bi irz" id="i932" style="top:0px;left:0px;z-index:118;"></div><a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/images/loading.gif.html#" class="nodec" onclick="javascript:popupClose('c_926');return false;"><div class="bi" id="i931" style="top:-17px;left:561px;z-index:126;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/931-918-907-725-703-690-677-664-651-638-625-s-button-close-v2.png@times=1508767467" width="50" height="50" alt="" title="" class="bl center"></div></a><div class="bi irz" id="i927" style="top:157px;left:84px;z-index:122;"><div class="irz scroll0"><i id="formInCallTextIconOne5" class="fa fa-user" style="font-size:50px;"></i></div></div><div class="bi irz" id="i928" style="top:218px;left:85px;z-index:123;"><div class="irz scroll0"><i id="formInCallTextIconTwo5" class="fa fa-phone-square" style="font-size:50px;"></i></div></div><div class="bi irz" id="i929" style="top:156px;left:143px;z-index:124;"><div class="irz scroll0">
 
                         <div class="form-block1-number5" id="formInCall5">
-                            <form action="javascript:void(null);" method="POST" id="form5" onsubmit="metcher5()">
-
-                                <input class="form1-name-number5" type="text" placeholder="                      Введите Ваше имя" name= "name5">
-
-                                <input  id="rightfoneform5" class="form1-telefon-number5" type="text" placeholder="             Введите Ваш номер телефона" name= "message5">
-
-
-                                <input class="form1-button-number5" type="submit" value="Отправить" onclick="setTimeout(formmetcher5, 200);">
-                            </form>
+                            <?php echo do_shortcode ('[contact-form-7 id="110" title="Contact form in navbar"]'); ?>
 
                         </div>
 
 
-                        <script type="text/javascript">
-
-                            // Снипет 1 - Название функции которую будем запускать
-                            function metcher5() {
-                                fbq('track', 'Lead');
-                                var msg   = $('#form5').serialize(); //Идентификатор формы с которой работаем
-                                $.ajax({
-                                    type: 'POST',
-                                    url: 'mail/post-5.php',  //Адрес к обработчику
-                                    data: msg,
-                                    success: function(data) {
-                                        $('.results').html(data);
-                                        //Всплывающее окно
-
-                                    },
-                                    error:  function(xhr, str){
-                                        alert('Возникла ошибка: ' + xhr.responseCode);
-                                    }
-                                });
-
-                                console.log('hello');
-
-                            };
-
-                            // Снипет 2 - Cброс данных формы, запуск через onclick в submit
-
-                            function formmetcher5() {
-                                document.getElementById('form5').reset();
-//alert("Ваша заявка успешно отправлена \n Мы свяжемся с Вами как можно быстрее.");
-                                document.getElementById('formInCallTextUp5').innerHTML = ('Заявка успешно принята!');
-                                document.getElementById('formInCallTextButtom5').innerHTML = ('Спасибо за Ваш запрос.<br />Ссылка для скачивания ниже.');
-                                document.getElementById('formInCallTextIconOne5').style.display='none';
-                                document.getElementById('formInCallTextIconTwo5').style.display='none';
-                                document.getElementById('formInCall5').style.display='none';
-                                document.getElementById('formInCallTextIconImage5').style.display='inline-block';
-                                document.getElementById('formInCallLinkForDownload5').style.display='inline-block';
-                                document.getElementById('formInCallTextButtom5').style.fontSize='21px';
-
-                            }
-                        </script></div></div><div class="bi irz" id="i930" style="top:191px;left:520px;z-index:127;"><div class="irz scroll0"><img id="formInCallTextIconImage5" style="display: none; position: relative; top: -30px; left: -265px;" id="formInCallTextIconImage5" src="<?php echo get_template_directory_uri(); ?>/assets/img/form-ok.png" alt="">
+                        </div></div><div class="bi irz" id="i930" style="top:191px;left:520px;z-index:127;"><div class="irz scroll0"><img id="formInCallTextIconImage5" style="display: none; position: relative; top: -30px; left: -265px;" id="formInCallTextIconImage5" src="<?php echo get_template_directory_uri(); ?>/assets/img/form-ok.png" alt="">
                         <div id="formInCallLinkForDownload5" style="display: none; position: relative; top: -21px; left: -253px;">
                             <a style="font-family: Roboto; font-size: 18px; text-decoration: none; color: #74A612; border-bottom: 1px dashed #74A612;" href="<?php echo get_template_directory_uri(); ?>/assets/files/pdf/Population_rates.pdf">Скачать</a>
-                        </div></div></div></div></div></div></div><div id="pgc_939" class="hidden" style="height:61px;"><div id="virtualc_939" style="height:61px;" class="virtuals"><div class="allContent" style="width:999px;height:61px;"><div id="c_939" class="droppable" style="width:999px;height:61px;"><a id="ac_939" class="ascroll" style="top:-86px;"></a></div></div></div></div><div id="pgc_940" class="hidden" style="height:373px;"><div id="virtualc_940" style="height:373px;" class="virtuals"><div class="allContent" style="width:601px;height:373px;"><div id="c_940" class="droppable" style="width:601px;height:373px;"><a id="ac_940" class="ascroll" style="top:-86px;"></a><div class="bi irz" id="i949" style="z-index:120;top:8px;left:0px;"><div class="irz scroll0"><p style="text-align: center;"><span id="formInCallTextUp6" style="font-family: Roboto, sans-serif; font-size: 40px; font-weight: bold;">Ошибки при запуске</span></p></div></div><div class="bi irz" id="i947" style="z-index:121;top:82px;left:50px;"><div class="irz scroll0"><p style="text-align: center;"><span id="formInCallTextButtom6" style="font-family: 'PT Sans Caption', sans-serif; font-size: 17px; font-weight: 600;">Введите имя, номер телефона, нажмите "Отправить",  для загрузки информации по ошибкам при "запуске" подстилки "БиоФерм"</span></p></div></div><div class="bi irz" id="i948" style="z-index:125;top:342px;left:0px;"><div class="irz scroll0"><h2 style="text-align: center;"><span style="font-family: Roboto, sans-serif; font-size: 12px; font-weight: lighter;">Ваши контактные данные в безопасности и не будут переданы третьим лицам</span></h2></div></div><div class="bi irz" id="i946" style="top:0px;left:0px;z-index:118;"></div><a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/images/loading.gif.html#" class="nodec" onclick="javascript:popupClose('c_940');return false;"><div class="bi" id="i945" style="top:-17px;left:561px;z-index:126;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/945-931-918-907-725-703-690-677-664-651-638-625-s-button-close-v2.png@times=1508828452" width="50" height="50" alt="" title="" class="bl center"></div></a><div class="bi irz" id="i941" style="top:157px;left:84px;z-index:122;"><div class="irz scroll0"><i id="formInCallTextIconOne6" class="fa fa-user" style="font-size:50px;"></i></div></div><div class="bi irz" id="i942" style="top:218px;left:85px;z-index:123;"><div class="irz scroll0"><i id="formInCallTextIconTwo6" class="fa fa-phone-square" style="font-size:50px;"></i></div></div><div class="bi irz" id="i943" style="top:156px;left:143px;z-index:124;"><div class="irz scroll0"><style>
-                            .form-block1-number6 {
-                                width: 300px !im;
-                                height: 170px;
-                                /*        border: 1px solid #333;*/
-                                position: absolute;
-                            }
-
-                            .form1-name-number6,
-                            .form1-telefon-number6{
-                                position: relative;
-                                width: 345px;
-                                height: 50px;
-                                display: block;
-                                font-size: 16px;
-                                font-family: Roboto, sans-serif;
-                                color: rgb(0, 0, 0);
-                                border-radius: 4px 4px 4px 4px;
-                                border: 1px solid rgb(212,212,212);
-                                padding: 0 5px 0 5px;
-                                box-sizing: border-box;
-                                margin-bottom: 12px;
-                            }
-
-                            .form1-button-number6 {
-                                position: relative;
-                                width: 345px;
-                                height: 50px;
-                                display: block;
-                                font-size: 22px;
-                                font-family: Roboto, sans-serif;
-                                color: rgb(51,51,51);
-                                border-radius: 10px 10px 10px 10px;
-                                border: 1px solid rgb(138,138,138);
-                                background-image: url("<?php echo get_template_directory_uri(); ?>/assets/img/button-fone.png");
-                                background-repeat: repeat;
-                                background-attachment: scroll;
-                                background-size: auto;
-                                cursor: pointer;
-                            }
-
-
-                        </style>
+                        </div></div></div></div></div></div></div><div id="pgc_939" class="hidden" style="height:61px;"><div id="virtualc_939" style="height:61px;" class="virtuals"><div class="allContent" style="width:999px;height:61px;"><div id="c_939" class="droppable" style="width:999px;height:61px;"><a id="ac_939" class="ascroll" style="top:-86px;"></a></div></div></div></div><div id="pgc_940" class="hidden" style="height:373px;"><div id="virtualc_940" style="height:373px;" class="virtuals"><div class="allContent" style="width:601px;height:373px;"><div id="c_940" class="droppable" style="width:601px;height:373px;"><a id="ac_940" class="ascroll" style="top:-86px;"></a><div class="bi irz" id="i949" style="z-index:120;top:8px;left:0px;"><div class="irz scroll0"><p style="text-align: center;"><span id="formInCallTextUp6" style="font-family: Roboto, sans-serif; font-size: 40px; font-weight: bold;">Ошибки при запуске</span></p></div></div><div class="bi irz" id="i947" style="z-index:121;top:82px;left:50px;"><div class="irz scroll0"><p style="text-align: center;"><span id="formInCallTextButtom6" style="font-family: 'PT Sans Caption', sans-serif; font-size: 17px; font-weight: 600;">Введите имя, номер телефона, нажмите "Отправить",  для загрузки информации по ошибкам при "запуске" подстилки "БиоФерм"</span></p></div></div><div class="bi irz" id="i948" style="z-index:125;top:342px;left:0px;"><div class="irz scroll0"><h2 style="text-align: center;"><span style="font-family: Roboto, sans-serif; font-size: 12px; font-weight: lighter;">Ваши контактные данные в безопасности и не будут переданы третьим лицам</span></h2></div></div><div class="bi irz" id="i946" style="top:0px;left:0px;z-index:118;"></div><a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/images/loading.gif.html#" class="nodec" onclick="javascript:popupClose('c_940');return false;"><div class="bi" id="i945" style="top:-17px;left:561px;z-index:126;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/945-931-918-907-725-703-690-677-664-651-638-625-s-button-close-v2.png@times=1508828452" width="50" height="50" alt="" title="" class="bl center"></div></a><div class="bi irz" id="i941" style="top:157px;left:84px;z-index:122;"><div class="irz scroll0"><i id="formInCallTextIconOne6" class="fa fa-user" style="font-size:50px;"></i></div></div><div class="bi irz" id="i942" style="top:218px;left:85px;z-index:123;"><div class="irz scroll0"><i id="formInCallTextIconTwo6" class="fa fa-phone-square" style="font-size:50px;"></i></div></div><div class="bi irz" id="i943" style="top:156px;left:143px;z-index:124;"><div class="irz scroll0">
 
                         <div class="form-block1-number6" id="formInCall6">
-                            <form action="javascript:void(null);" method="POST" id="form6" onsubmit="metcher6()">
-
-                                <input class="form1-name-number6" type="text" placeholder="                      Введите Ваше имя" name= "name6">
-
-                                <input  id="rightfoneform6" class="form1-telefon-number5" type="text" placeholder="             Введите Ваш номер телефона" name= "message6">
-
-
-                                <input class="form1-button-number6" type="submit" value="Отправить" onclick="setTimeout(formmetcher6, 200);">
-                            </form>
+                            <?php echo do_shortcode ('[contact-form-7 id="110" title="Contact form in navbar"]'); ?>
 
                         </div>
 
 
-                        <script type="text/javascript">
-
-                            // Снипет 1 - Название функции которую будем запускать
-                            function metcher6() {
-                                fbq('track', 'Lead');
-                                var msg   = $('#form6').serialize(); //Идентификатор формы с которой работаем
-                                $.ajax({
-                                    type: 'POST',
-                                    url: 'mail/post-6.php',  //Адрес к обработчику
-                                    data: msg,
-                                    success: function(data) {
-                                        $('.results').html(data);
-                                        //Всплывающее окно
-
-                                    },
-                                    error:  function(xhr, str){
-                                        alert('Возникла ошибка: ' + xhr.responseCode);
-                                    }
-                                });
-
-                                console.log('hello');
-
-                            };
-
-                            // Снипет 2 - Cброс данных формы, запуск через onclick в submit
-
-                            function formmetcher6() {
-                                document.getElementById('form6').reset();
-//alert("Ваша заявка успешно отправлена \n Мы свяжемся с Вами как можно быстрее.");
-                                document.getElementById('formInCallTextUp6').innerHTML = ('Заявка успешно принята!');
-                                document.getElementById('formInCallTextButtom6').innerHTML = ('Спасибо за Ваш запрос.<br />Ссылка для скачивания ниже.');
-                                document.getElementById('formInCallTextIconOne6').style.display='none';
-                                document.getElementById('formInCallTextIconTwo6').style.display='none';
-                                document.getElementById('formInCall6').style.display='none';
-                                document.getElementById('formInCallTextIconImage6').style.display='inline-block';
-                                document.getElementById('formInCallLinkForDownload6').style.display='inline-block';
-                                document.getElementById('formInCallTextButtom6').style.fontSize='21px';
-
-                            }
-                        </script></div></div><div class="bi irz" id="i944" style="top:191px;left:520px;z-index:127;"><div class="irz scroll0"><img id="formInCallTextIconImage6" style="display: none; position: relative; top: -30px; left: -265px;" id="formInCallTextIconImage6" src="<?php echo get_template_directory_uri(); ?>/assets/img/form-ok.png" alt="">
+                        </div></div><div class="bi irz" id="i944" style="top:191px;left:520px;z-index:127;"><div class="irz scroll0"><img id="formInCallTextIconImage6" style="display: none; position: relative; top: -30px; left: -265px;" id="formInCallTextIconImage6" src="<?php echo get_template_directory_uri(); ?>/assets/img/form-ok.png" alt="">
                         <div id="formInCallLinkForDownload6" style="display: none; position: relative; top: -21px; left: -253px;">
                             <a style="font-family: Roboto; font-size: 18px; text-decoration: none; color: #74A612; border-bottom: 1px dashed #74A612;" href="<?php echo get_template_directory_uri(); ?>/assets/files/pdf/Errors_at_startup.pdf">Скачать</a>
                         </div></div></div></div></div></div></div><div id="pgc_758" class="hidden" style="height:400px;"><div id="virtualc_758" style="height:400px;" class="virtuals"><div class="allContent" style="width:650px;height:400px;"><div id="c_758" class="droppable" style="width:650px;height:400px;"><a id="ac_758" class="ascroll" style="top:-86px;"></a><a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/images/loading.gif.html#" class="nodec" onclick="javascript:popupClose('c_758');return false;"><div class="bi" id="i759" style="top:-34px;left:626px;z-index:155;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/759-725-703-690-677-664-651-638-625-s-button-close-v2.png@times=1493804959" width="50" height="50" alt="" title="" class="bl center"></div></a><div class="bi irz" id="i760" style="top:23px;left:14px;z-index:156;"><div class="irz scroll0"><iframe width="620" height="349" src="https://www.youtube.com/embed/6QqizS3BRsc?autoplay=0&rel=0" frameborder="0" allowfullscreen></iframe></div></div></div></div></div></div><div id="pgc_761" class="hidden" style="height:44px;"><div id="virtualc_761" style="height:44px;" class="virtuals"><div class="allContent" style="width:999px;height:44px;"><div id="c_761" class="droppable" style="width:999px;height:44px;"><a id="ac_761" class="ascroll" style="top:-86px;"></a></div></div></div></div><div id="pgc_762" class="hidden" style="height:400px;"><div id="virtualc_762" style="height:400px;" class="virtuals"><div class="allContent" style="width:650px;height:400px;"><div id="c_762" class="droppable" style="width:650px;height:400px;"><a id="ac_762" class="ascroll" style="top:-86px;"></a><a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/images/loading.gif.html#" class="nodec" onclick="javascript:popupClose('c_762');return false;"><div class="bi" id="i764" style="top:-34px;left:626px;z-index:155;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/764-759-725-703-690-677-664-651-638-625-s-button-close-v2.png@times=1493806872" width="50" height="50" alt="" title="" class="bl center"></div></a><div class="bi irz" id="i763" style="top:23px;left:14px;z-index:156;"><div class="irz scroll0"><iframe width="620" height="349" src="https://www.youtube.com/embed/b8cGSbp-_7k?autoplay=0&rel=0" frameborder="0" allowfullscreen></iframe></div></div></div></div></div></div><div id="pgc_765" class="hidden" style="height:66px;"><div id="virtualc_765" style="height:66px;" class="virtuals"><div class="allContent" style="width:999px;height:66px;"><div id="c_765" class="droppable" style="width:999px;height:66px;"><a id="ac_765" class="ascroll" style="top:-86px;"></a></div></div></div></div><div id="pgc_766" class="hidden" style="height:400px;"><div id="virtualc_766" style="height:400px;" class="virtuals"><div class="allContent" style="width:650px;height:400px;"><div id="c_766" class="droppable" style="width:650px;height:400px;"><a id="ac_766" class="ascroll" style="top:-86px;"></a><a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/images/loading.gif.html#" class="nodec" onclick="javascript:popupClose('c_766');return false;"><div class="bi" id="i768" style="top:-34px;left:626px;z-index:155;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/768-764-759-725-703-690-677-664-651-638-625-s-button-close-v2.png@times=1493807012" width="50" height="50" alt="" title="" class="bl center"></div></a><div class="bi irz" id="i767" style="top:23px;left:14px;z-index:156;"><div class="irz scroll0"><iframe width="620" height="349" src="https://www.youtube.com/embed/eQzWglN3m6c?autoplay=0&rel=0" frameborder="0" allowfullscreen></iframe></div></div></div></div></div></div><div id="pgc_769" class="hidden" style="height:81px;"><div id="virtualc_769" style="height:81px;" class="virtuals"><div class="allContent" style="width:999px;height:81px;"><div id="c_769" class="droppable" style="width:999px;height:81px;"><a id="ac_769" class="ascroll" style="top:-86px;"></a></div></div></div></div><div id="pgc_770" class="hidden" style="height:400px;"><div id="virtualc_770" style="height:400px;" class="virtuals"><div class="allContent" style="width:650px;height:400px;"><div id="c_770" class="droppable" style="width:650px;height:400px;"><a id="ac_770" class="ascroll" style="top:-86px;"></a><a href="<?php echo get_template_directory_uri(); ?>/assets/galery-main/images/loading.gif.html#" class="nodec" onclick="javascript:popupClose('c_770');return false;"><div class="bi" id="i772" style="top:-34px;left:626px;z-index:155;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/772-768-764-759-725-703-690-677-664-651-638-625-s-button-close-v2.png@times=1493807183" width="50" height="50" alt="" title="" class="bl center"></div></a><div class="bi irz" id="i771" style="top:23px;left:14px;z-index:156;"><div class="irz scroll0"><iframe width="620" height="349" src="https://www.youtube.com/embed/2ZrqKIi9wyg?autoplay=0&rel=0" frameborder="0" allowfullscreen></iframe></div></div></div></div></div></div></div></td></tr></table>

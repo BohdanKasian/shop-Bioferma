@@ -399,6 +399,18 @@ span.wpcf7-not-valid-tip {
 #i723 span.wpcf7-not-valid-tip {
     top: 49px;
 }
+
+#i1089 .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok{
+    position: absolute;
+    top: 37px;
+    background-color: inherit;
+}
+#i1082 .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok{
+    margin: 0;
+    position: relative;
+    top: -10px;
+    background-color: inherit;
+}
 #i1089 .wpcf7-form-control-wrap.Name span.wpcf7-not-valid-tip,
 #i1932 .wpcf7-form-control-wrap.Name span.wpcf7-not-valid-tip,
 #i1819 .wpcf7-form-control-wrap.Name span.wpcf7-not-valid-tip{

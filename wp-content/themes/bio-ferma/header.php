@@ -191,44 +191,7 @@
 </div>
 
 
-<script type="text/javascript">
 
-     // Снипет 1 - Название функции которую будем запускать
-     function metcher() {
-       fbq('track', 'Lead');
-       var msg   = jQuery('#form1').serialize(); //Идентификатор формы с которой работаем
-        jQuery.ajax({
-          type: 'POST',
-          url: 'mail/post-1.php',  //Адрес к обработчику
-          data: msg,
-          success: function(data) {
-            jQuery('.results').html(data);
-             //Всплывающее окно
-
-          },
-          error:  function(xhr, str){
-        alert('Возникла ошибка: ' + xhr.responseCode);
-          }
-        });
-
-     console.log('hello');
-
-    };
-
-// Снипет 2 - Cброс данных формы, запуск через onclick в submit
-
-function formmetcher() {
-document.getElementById('form1').reset();
-//alert("Ваша заявка успешно отправлена \n Мы свяжемся с Вами как можно быстрее.");
-document.getElementById('formInCallTextUp').innerHTML = ('Заявка успешно принята!');
-document.getElementById('formInCallTextButtom').innerHTML = ('Ваша заявка успешно принята.<br />Менеджер свяжется с Вами как можно быстрее.');
-document.getElementById('formInCallTextIconOne').style.display='none';
-document.getElementById('formInCallTextIconTwo').style.display='none';
-document.getElementById('formInCall').style.display='none';
-document.getElementById('formInCallTextIconImage').style.display='inline-block';
-document.getElementById('formInCallTextButtom').style.fontSize='21px';
-
-}
 </script></div></div><div class="bi irz" id="i726" style="top:191px;left:520px;z-index:127;"><div class="irz scroll0"><img id="formInCallTextIconImage" style="display: none; position: relative; top: 0px; left: -265px;" id="formInCallTextIconImage" src="<?php echo get_template_directory_uri(); ?>/assets/img/form-ok.png" alt=""></div></div></div></div></div></div>
 
 

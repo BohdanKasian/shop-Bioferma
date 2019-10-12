@@ -9,7 +9,9 @@
 	url(assets/fonts/WooCommerce.woff) format("woff"),
 	url(assets/fonts/WooCommerce.ttf) format("truetype"),
 	url(assets/fonts/WooCommerce.svg#WooCommerce) format("svg");font-weight:400;font-style:normal}
-
+.wrapper {
+    margin: 0 auto;
+}
 .form-block1-number-1 {
     width: 300px !important;
     height: 170px;
@@ -366,6 +368,10 @@ div#primary.content-area{
 }
 .woocommerce-breadcrumb a{
 	color: #444648;
+    text-decoration: underline;
+}
+.woocommerce-breadcrumb a:hover{
+    text-decoration: underline;
 }
 .woocommerce ul.products li.product a.added_to_cart.wc-forward {
 	display: none;
@@ -400,15 +406,23 @@ span.wpcf7-not-valid-tip {
     top: 49px;
 }
 
-#i1089 .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok{
+#i1089 .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok,
+#i1932 .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok{
     position: absolute;
-    top: 37px;
+    top: 32px;
     background-color: inherit;
 }
-#i1082 .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok{
+#i1082 .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok,
+#i1814 .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok,
+#i1927 .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok{
     margin: 0;
     position: relative;
     top: -10px;
+    background-color: inherit;
+}
+#i1819 .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok {
+    position: absolute;
+    top: 29px;
     background-color: inherit;
 }
 #i1089 .wpcf7-form-control-wrap.Name span.wpcf7-not-valid-tip,
@@ -421,4 +435,12 @@ span.wpcf7-not-valid-tip {
 #i1819 .wpcf7-form-control-wrap.Numberphone span.wpcf7-not-valid-tip{
     top: -10px;
     left: 290px;
+}
+
+#test4 {
+    content: "";
+    position: relative;
+    width: 340px;
+    height: 50px;
+    bottom: 70px;
 }

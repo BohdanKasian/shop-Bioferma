@@ -1,0 +1,56 @@
+2019-10-12T12:14:52+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting end of file в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\woocommerce\checkout\thankyou.php на строке 29
+
+2019-10-12T12:14:58+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting end of file в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\woocommerce\checkout\thankyou.php на строке 29
+
+2019-10-12T12:49:18+00:00 CRITICAL Cannot redeclare load_fonts() (previously declared in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\functions.php:174) в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\functions.php на строке 174
+
+2019-10-12T12:49:40+00:00 CRITICAL Cannot redeclare load_fonts() (previously declared in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\functions.php:174) в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\functions.php на строке 174
+
+2019-10-12T12:59:47+00:00 CRITICAL Uncaught Error: Call to undefined function bio_ferma_woocommerce_cart_link() in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\header.php:122
+Stack trace:
+#0 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\template.php(722): require_once()
+#1 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\template.php(671): load_template('D:\\localReposit...', true)
+#2 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\template-parts\orderas.php(5): get_header()
+#4 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\functions.php(222): require('D:\\localReposit...')
+#5 D:\localRepository\MY-PROJECT\bio-ferma\wp-settings.php(499): include('D:\\localReposit...')
+#6 D:\localRepository\MY-PROJECT\bio-ferma\wp-config.php(92): require_once('D:\\localReposit...')
+#7 D:\localRepository\MY-PROJECT\bio-ferma\wp-load.php(37): require_once('D:\\localReposit...')
+#8 D: в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\header.php на строке 122
+
+2019-10-12T12:59:48+00:00 CRITICAL Uncaught Error: Call to undefined function bio_ferma_woocommerce_cart_link() in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\header.php:122
+Stack trace:
+#0 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\template.php(722): require_once()
+#1 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\template.php(671): load_template('D:\\localReposit...', true)
+#2 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\template-parts\orderas.php(5): get_header()
+#4 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\functions.php(222): require('D:\\localReposit...')
+#5 D:\localRepository\MY-PROJECT\bio-ferma\wp-settings.php(499): include('D:\\localReposit...')
+#6 D:\localRepository\MY-PROJECT\bio-ferma\wp-config.php(92): require_once('D:\\localReposit...')
+#7 D:\localRepository\MY-PROJECT\bio-ferma\wp-load.php(37): require_once('D:\\localReposit...')
+#8 D: в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\header.php на строке 122
+
+2019-10-12T12:59:48+00:00 CRITICAL Uncaught Error: Call to undefined function bio_ferma_woocommerce_cart_link() in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\header.php:122
+Stack trace:
+#0 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\template.php(722): require_once()
+#1 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\template.php(671): load_template('D:\\localReposit...', true)
+#2 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\template-parts\orderas.php(5): get_header()
+#4 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\functions.php(222): require('D:\\localReposit...')
+#5 D:\localRepository\MY-PROJECT\bio-ferma\wp-settings.php(499): include('D:\\localReposit...')
+#6 D:\localRepository\MY-PROJECT\bio-ferma\wp-config.php(92): require_once('D:\\localReposit...')
+#7 D:\localRepository\MY-PROJECT\bio-ferma\wp-load.php(37): require_once('D:\\localReposit...')
+#8 D: в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\header.php на строке 122
+
+2019-10-12T12:59:57+00:00 CRITICAL Uncaught Error: Call to undefined function bio_ferma_woocommerce_cart_link() in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\header.php:122
+Stack trace:
+#0 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\template.php(722): require_once()
+#1 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\template.php(671): load_template('D:\\localReposit...', true)
+#2 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\template-parts\orderas.php(5): get_header()
+#4 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\functions.php(222): require('D:\\localReposit...')
+#5 D:\localRepository\MY-PROJECT\bio-ferma\wp-settings.php(499): include('D:\\localReposit...')
+#6 D:\localRepository\MY-PROJECT\bio-ferma\wp-config.php(92): require_once('D:\\localReposit...')
+#7 D:\localRepository\MY-PROJECT\bio-ferma\wp-load.php(37): require_once('D:\\localReposit...')
+#8 D: в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\header.php на строке 122
+

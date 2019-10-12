@@ -371,3 +371,44 @@ p.form-submit input.submit {
     box-shadow: 0 0 5px 0 rgba(0,0,0,0.25);
 }
 
+
+
+.list-group-item {
+    border: 1px solid #ececec;
+}
+.order_details .list-group-item:first-child {
+    border-radius: unset;
+}
+.woocommerce-order-details__title.panel-heading,
+.payment_methods_thankyou-page{
+    background-color: #ececec;
+    font-style: Roboto;
+    color: #115807;
+    font-size: 24px;
+    padding: 15px;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+.woocommerce-order-overview__order.order.list-group-item{
+    border-radius: 0;
+}
+.woocommerce-table--order-details.order_details.shop_table {
+    border: 1px solid #ececec;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-collapse: separate;
+}
+.woocommerce-table--order-details.order_details thead {
+
+}
+/*.woocommerce-customer-details.panel.panel-primary {*/
+/*    position: absolute;*/
+/*    bottom: -120px;*/
+/*}*/
+.margin-order-detail {
+    margin: 0 0 4em 0 ;
+    justify-content: space-between;
+}
+.title-order-received-margin {
+    margin: 40px 0 20px 2em !important;
+}

@@ -10,14 +10,6 @@ if( ! defined('ABSPATH')){
  *
  * @link https://docs.woocommerce.com/document/disable-the-default-stylesheet/
  */
-
-//add_filter( 'woocommerce_enqueue_styles', 'jk_dequeue_styles' );
-//function jk_dequeue_styles( $enqueue_styles ) {
-//    unset( $enqueue_styles['woocommerce-general'] );	// Remove the gloss
-//    unset( $enqueue_styles['woocommerce-layout'] );		// Remove the layout
-//    unset( $enqueue_styles['woocommerce-smallscreen'] );	// Remove the smallscreen optimisation
-//    return $enqueue_styles;
-//}
 add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
 
 remove_all_filters('woocommerce_before_single_product_summary');
@@ -29,3 +21,11 @@ remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_r
 //remove_action ('woocommerce_before_shop_loop','woocommerce_catalog_ordering', 30);
 remove_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_rating', 5 );
 remove_filter( 'woocommerce_product_loop_start', 'woocommerce_maybe_show_product_subcategories');
+
+add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 );
+function woo_remove_product_tabs( $tabs ) {
+//    unset( $tabs['description'] ); // Отключить вкладку "Описание"
+//    unset( $tabs['reviews'] ); // Отключить вкладку "Отзывы"
+    unset( $tabs['additional_information'] ); // Отключить вкладку "Свойства"
+    return $tabs;
+}

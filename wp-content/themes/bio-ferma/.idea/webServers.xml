@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ece775a7-0177-4ced-a47c-34998305ca36" name="bioferma" url="">
+        <fileTransfer port="0" mountedRoot="D:\localRepository\MY-PROJECT\bio-ferma" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

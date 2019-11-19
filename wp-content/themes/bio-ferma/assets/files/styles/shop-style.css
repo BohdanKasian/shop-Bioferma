@@ -4,7 +4,15 @@ a{
 li {
     list-style-type: none;
 }
-
+.cart-subtotal {
+    display: none !important;
+}
+.display-disabled{
+    display: none;
+}
+.woocommerce table.shop_table tfoot tr:first-child {
+    display: none !important;
+}
 .woocommerce-error, .woocommerce-info, .woocommerce-message {
     padding: 1em 2em 2em 3.5em;
     margin: 0 0 2em;
@@ -61,24 +69,6 @@ li {
     border-radius: 10px;
     background-color: rgb(89, 166, 0);
     box-shadow: 0 0 5px 0 rgba(0,0,0,0.25);
-    /*font-size: 100%;*/
-    /*margin: 0;*/
-    /*line-height: 1;*/
-    /*cursor: pointer;*/
-    /*position: relative;*/
-    /*text-decoration: none;*/
-    /*overflow: visible;*/
-    /*padding: .618em 1em;*/
-    /*font-weight: 700;*/
-    /*border-radius: 3px;*/
-    /*left: auto;*/
-    /*color: #515151;*/
-    /*background-color: #ebe9eb;*/
-    /*border: 0;*/
-    /*display: inline-block;*/
-    /*background-image: none;*/
-    /*box-shadow: none;*/
-    /*text-shadow: none;*/
 }
 .woocommerce #respond input#submit:hover,
 .woocommerce-info .showcoupon:hover,
@@ -229,9 +219,14 @@ li {
     padding: 10px 10px 15px 10px;
     border: 1px solid #e8e8e8;
     position: relative;
+    min-height: 380px;
 }
 .columns-3 ul.products.columns-3 li:hover {
     box-shadow: 0px 14px 40px 1px rgba(0,0,0,0.2);
+}
+.columns-3 ul.products.columns-3 li:hover .woocommerce-loop-product__title{
+    transition: all 0.5s ease-in-out;
+    height: 75px;
 }
 .woocommerce ul.products li.product a img {
     width: 100%;
@@ -239,13 +234,15 @@ li {
     display: block;
     margin: 0 0 1em;
     box-shadow: none;
+    min-height: 218px;
 }
 .columns-3 ul.products.columns-3 li .woocommerce-loop-product__title{
     font-family: 'Roboto';
     font-size: 15px;
     font-weight: normal;
     margin-bottom: 10px;
-    height: 37px;
+    height: 40px;
+    overflow: hidden;
     color: #231f20;
     border-bottom: 1px solid #e8e8e8;
 }
@@ -260,6 +257,12 @@ li {
 .columns-3 ul.products.columns-3 li span.price del {
     display: none;
 }
+.button.product_type_variable.add_to_cart_button {
+    display: inline-block;
+    margin: 9px 16% 0;
+    width: 142px;
+}
+
 
 .woocommerce ul.products li.product a span.onsale {
     display: none;

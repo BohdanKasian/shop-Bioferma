@@ -141,31 +141,20 @@ add_action( 'widgets_init', 'bio_ferma_widgets_init' );
 /**
  * Enqueue scripts and styles.
  */
+
 function bio_ferma_scripts() {
-    wp_enqueue_style( 'bio-ferma-bootstrap', get_template_directory_uri().'/assets/files/styles/bootstrap.css', array());
-	wp_enqueue_style( 'bio-ferma-skinss', get_template_directory_uri().'/assets/skinss/css/default.css@v4.css',array());
-	wp_enqueue_style( 'bio-ferma-animate', get_template_directory_uri().'/assets/skinss/css/animate.css', array());
+    wp_register_style('Bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+    wp_enqueue_style('Bootstrap');
+	wp_enqueue_style( 'bio-ferma-animate', get_template_directory_uri().'/assets/skinss/css/allStyle.min.css', array());
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri().'/assets/skinss/css/font-awesome.min.css@v7.css', array());
-	wp_enqueue_style( 'bio-ferma-files', get_template_directory_uri().'/assets/files/styles/1.css@times=1522749352.css', array());
-	wp_enqueue_style( 'bio-ferma-files-1', get_template_directory_uri().'/assets/files/styles/-1.css@times=1522749352.css', array());
-    wp_enqueue_style( 'bio-ferma-files-2', get_template_directory_uri().'/assets/files/styles/style-materials.css', array());
-    wp_enqueue_style( 'bio-ferma-single-product-style', get_template_directory_uri().'/assets/files/styles/single-product.css', array());
-    wp_enqueue_style( 'bio-ferma-shop-style', get_template_directory_uri().'/assets/files/styles/shop-style.css', array());
-    wp_enqueue_style( 'bio-ferma-rightForm-popup-style', get_template_directory_uri().'/assets/files/styles/rightForm-popup.css', array());
     wp_enqueue_style( 'bio-ferma-style', get_template_directory_uri().'/style.css', array());
 
 
     wp_deregister_script( 'jquery' );
     wp_register_script( 'jquery', '//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js');
     wp_enqueue_script( 'jquery' );
-
-    wp_enqueue_script( 'rightPopUp', get_template_directory_uri().'/assets/js/rightPopUp.js', array('jquery'), '',true);
-    wp_enqueue_script( 'bio-ferma-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array('jquery'), '20151215', true );
-	wp_enqueue_script( 'bio-ferma-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix.js', array('jquery'), '20151215', true );
-	wp_enqueue_script('jquerymin', get_template_directory_uri()."/assets/skinss/js/jcarousel.js", array('jquery'));
-	wp_enqueue_script('carousel', get_template_directory_uri()."/assets/skinss/js/jquery.carousel.js", array('jquery'));
-	wp_enqueue_script('shiningImage', get_template_directory_uri()."/assets/js-script/jquery.shiningImage.min.js", array('jquery'));
-	wp_enqueue_script('jswow', get_template_directory_uri()."/assets/skinss/js/wow.min.js", array('jquery'), '', true);
+//    wp_enqueue_script('jqShining', get_template_directory_uri()."/assets/skinss/js/jquery.shiningImage.min.js", array('jquery'), '');
+    wp_enqueue_script('jswow', get_template_directory_uri()."/assets/skinss/js/jQscript.min.js", array('jquery'), '');
 	wp_enqueue_script( 'bio-ferma-script', get_template_directory_uri().'/assets/skinss/js/script.js', array('jquery'), '',true);
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -233,5 +222,11 @@ if ( class_exists( 'WooCommerce' ) ) {
     require get_template_directory() . '/woocommerce/includes/wc-functions-checkout.php';
 }
 
+add_filter('gettext', 'translate_text');
+add_filter('ngettext', 'translate_text');
 
+function translate_text($translated) {
+    $translated = str_ireplace('Подытог', 'Итого', $translated);
+    return $translated;
+}
 

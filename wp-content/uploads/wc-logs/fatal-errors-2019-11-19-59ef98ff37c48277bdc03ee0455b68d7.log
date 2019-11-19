@@ -1,0 +1,4 @@
+2019-11-19T16:47:06+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\plugins\query-monitor\classes\Backtrace.php на строке 94
+
+2019-11-19T16:49:42+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\plugins\query-monitor\classes\Backtrace.php на строке 94
+

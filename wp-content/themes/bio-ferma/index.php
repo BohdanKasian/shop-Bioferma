@@ -16,10 +16,75 @@ get_header();
 if (is_wc_endpoint_url('order-received')):
     get_header();
 ?>
-<div class="asdqqq">
-    laskdaskldaslkdn
-</div>
+
 <?php endif;?>
+    <div id="pgc_1093" style="height:599px;"><div id="virtualc_1093" style="height:599px;z-index:61;" class="virtuals"><div class="allContent" style="width:999px;height:599px;"><div id="c_1093" class="droppable" style="width:999px;height:599px;"><a id="ac_1093" class="ascroll" style="top:-86px;"></a><div class="bi irz" id="i1110" style="z-index:100;top:20px;left:0px;"><div class="irz scroll0"><h2 style="font-family: Roboto; color: #115807; font-size: 36px; text-align: center;"><span style="font-weight: 900; background-color: #ececec; padding-left: 10px; padding-right: 61px;">ПОДСТИЛКА ДЛЯ ЖИВОТНЫХ <span style="color: #379b2a;">БИО</span>ФЕРМ</span></h2></div></div><div class="bi irz" id="i1111" style="z-index:100;top:214px;left:57px;"><div class="irz scroll0"><ul style="list-style: none; font-family: Roboto; font-weight: bold; color: #ef7f1a; font-size: 24px; margin-left: 0; margin: 0; padding: 0;">
+                                <li style="margin-bottom: 5px;">Вырабатывает тепло</li>
+                                <li style="margin-bottom: 5px;">Перерабатывает экскременты</li>
+                                <li style="margin-bottom: 5px;">Устраняет неприятный запах</li>
+                                <li style="margin-bottom: 5px;">Не заводятся грызуны</li>
+                                <li style="margin-bottom: 5px;">Животные не болеют</li>
+                                <li>После животных не<br />нужно убирать</li>
+                            </ul></div></div><div class="bi irz" id="i1112" style="z-index:150;top:411px;left:689px;"><div class="irz scroll0"><p style="text-align: center; margin: 0px; padding: 0px; line-height: 12px;"><span style="font-size: 12px; line-height: 12px;"> <span style="font-family: Roboto, sans-serif; font-weight: lighter; line-height: 12px;"> Ваши контактые данные в безопасности и не будут переданы третьим лицам </span> </span></p></div></div><div class="bi irz" id="i1113" style="z-index:150;top:229px;left:695px;"><div class="irz scroll0"><p style="text-align: center;"><strong><span style="font-size: 18px;"><span id="popUpFormZagolovokBIO-1-header-1" style="font-family: Roboto, sans-serif;">ЗАКАЖИТЕ ОБРАТНЫЙ ЗВОНОК</span></span></strong></p></div></div><div class="bi irz" id="i1117" style="z-index:200;top:480px;left:164px;"><div class="irz scroll0"><p><span style="font-family: Roboto, sans-serif; font-size: 24px; font-weight: 900; line-height: 10px;">срок<br />службы<br /></span></p></div></div><div class="bi irz" id="i1116" style="z-index:200;top:470px;left:25px;"><div class="irz scroll0"><p><span style="font-family: Roboto, sans-serif; font-size: 45px; font-weight: 900;">3</span></p></div></div><div class="bi irz" id="i1118" style="z-index:200;top:481px;left:63px;"><div class="irz scroll0"><p><span style="font-family: Roboto, sans-serif; font-size: 30px; font-weight: 900;">ГОДА</span></p></div></div><div class="bi irz" id="i1119" style="z-index:200;top:92px;left:111px;"><div class="irz scroll0"><p style="text-align: center;"><span style="font-family: Roboto, sans-serif; font-size: 30px; font-weight: 900; line-height: 28px;">На 48% удешевляет содержание животных<br />уже через 5 дней с помощью<br />новых ЭКО-технологий </span></p></div></div><div class="bi" id="i1104" style="top:349px;left:321px;z-index:80;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/1104-s-fone-4.png@times=1517402034" width="220" height="232" alt="" title="" class="bl center"></div><div class="bi" id="i1102" style="top:77px;left:0px;z-index:100;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/1102-s-fone-5-line.png@times=1517402034" width="993" height="4" alt="" title="" class="bl center"></div><div class="bi" id="i1103" style="top:205px;left:473px;z-index:100;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/1103-s-fone-2.png@times=1517402034" width="519" height="377" alt="" title="" class="bl center"></div><div class="bi" id="i1105" style="top:463px;left:10px;z-index:100;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/s-fone-1-v2.png@times=1517405075" width="280" height="73" alt="" title="" class="bl center"></div><div class="bi irz" id="i1108" style="top:214px;left:678px;z-index:120;"></div><div class="bi" id="i1106" style="top:25px;left:820px;z-index:150;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/1106-1092-s-list.png@times=1517402175" width="40" height="30" alt="" title="" class="bl center"></div><div class="bi" id="i1107" style="top:157px;left:888px;z-index:170;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/1107-s-fone-3.png@times=1517402034" width="100" height="64" alt="" title="" class="bl center"></div><div class="bi irz" id="i1094" style="top:252px;left:11px;z-index:100;"><div class="irz scroll0"><div style="height: 23px;width: 23px;display: inline-block;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon.png);background-repeat: no-repeat;background-position: 0px -23px;" ></div></div></div><div class="bi irz" id="i1095" style="top:215px;left:11px;z-index:100;"><div class="irz scroll0"><div style="height: 23px;width: 23px;display: inline-block;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon.png);background-repeat: no-repeat;background-position: 0px 0px;" ></div></div></div><div class="bi irz" id="i1096" style="top:287px;left:11px;z-index:100;"><div class="irz scroll0"><div style="height: 23px;width: 23px;display: inline-block;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon.png);background-repeat: no-repeat;background-position: 0px -46px;" ></div></div></div><div class="bi irz" id="i1097" style="top:323px;left:11px;z-index:100;"><div class="irz scroll0"><div style="height: 23px;width: 23px;display: inline-block;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon.png);background-repeat: no-repeat;background-position: 0px -68px;" ></div></div></div><div class="bi irz" id="i1098" style="top:357px;left:11px;z-index:100;"><div class="irz scroll0"><div style="height: 23px;width: 23px;display: inline-block;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon.png);background-repeat: no-repeat;background-position: 0px -91px;" ></div></div></div><div class="bi irz" id="i1099" style="top:392px;left:11px;z-index:100;"><div class="irz scroll0"><div style="height: 23px;width: 23px;display: inline-block;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/icon.png);background-repeat: no-repeat;background-position: 0px -114px;" ></div></div></div>
+                    <div class="bi irz" id="i1100" style="top:265px;left:700px;z-index:150;">
+                        <div class="irz scroll0">
+
+
+                            <div class="popUpFormBIO-header-1" id="formInCallBIO-1-header-1">
+                                <?php echo do_shortcode ('[contact-form-7 id="108" title="Main contact form"]'); ?>
+                            </div>
+
+
+                        </div></div><div class="bi irz" id="i1101" style="top:265px;left:681px;z-index:150;"><div class="irz scroll0"><img id="formInCallTextIconImageBIO-header-1" style="display: none; position: relative; top: 20px; left: 110px;" src="<?php echo get_template_directory_uri(); ?>/assets/img/form-ok.png" alt=""></div></div></div></div></div></div><div id="pgc_797" class="hidden" style="height:438px;"><div id="virtualc_797" style="height:438px;" class="virtuals"><div class="allContent" style="width:999px;height:438px;"><div id="c_797" class="droppable" style="width:999px;height:438px;"><a id="ac_797" class="ascroll" style="top:-86px;"></a><div class="bi irz" id="i800" style="z-index:167;top:20px;left:0px;"><div class="irz scroll0"><p style="text-align: center; line-height: 30px;"><span style="font-weight: 900; font-size: 45px;"><span style="font-family: Roboto, sans-serif; line-height: 40px;"><span style="color: red;">Акция!</span> При заказе от 3-х кг - электронный термометр в подарок</span></span></p></div></div><div class="bi irz" id="i803" style="z-index:170;top:185px;left:6px;"><div class="irz scroll0"><p style="text-align: center;"><span style="font-family: Roboto, sans-serif; font-size: 19px;"><span style="font-family: Roboto, sans-serif;"><strong><span style="font-size: 21px;">СОВЕРШИТЕ ЗАКАЗ ОТ 3 КГ.</span></strong><br />И компания "Биоферм" подарит Вам универсальный брендовый термометр. Что бы Вы могли убедиться в том что "Биоферм" понастоящему эффективный и высокотехнологичный продукт для вашего хозяйства!</span></span></p></div></div><div class="bi irz" id="i807" style="z-index:172;top:167px;left:710px;"><div class="irz scroll0"><p style="text-align: center;"><strong><span style="font-size: 18px;"><span id="popUpFormZagolovokBIO-9" style="font-family: Roboto, sans-serif;">ПОЛУЧИТЬ ПОДАРОК</span></span></strong></p></div></div><div class="bi" id="i804" style="top:179px;left:385px;z-index:50;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/s-gift-block-v3.png@times=1507903642" width="280" height="204" alt="" title="" class="bl center"></div><div class="bi irz" id="i805" style="top:228px;left:708px;z-index:171;"><div class="irz scroll0">
+
+                        <div class="popUpFormBIO-9" id="formInCallBIO-9">
+                            <?php echo do_shortcode ('[contact-form-7 id="114" title="Hidden Form present"]'); ?>
+
+                        </div>
+
+
+
+
+                    </div></div><div class="bi irz" id="i808" style="top:223px;left:686px;z-index:173;"><div class="irz scroll0"><img id="formInCallTextIconImageBIO-9" style="display: none; position: relative; top: 20px; left: 110px;" src="<?php echo get_template_directory_uri(); ?>/assets/img/form-ok.png" alt=""></div></div></div></div></div></div>
+
+
+
+    <div id="pgc_717" class="hidden" style="height:373px;">
+        <div id="virtualc_717" style="height:373px;" class="virtuals">
+            <div class="allContent" style="width:601px;height:373px;">
+                <div id="c_717" class="droppable" style="width:601px;height:373px;">
+                    <a id="ac_717" class="ascroll" style="top:-86px;"></a>
+                    <div class="bi irz" id="i719" style="z-index:120;top:6px;left:-1px;">
+                        <div class="irz scroll0">
+                            <p style="text-align: center;"><span id="formInCallTextUp" style="font-family: Roboto, sans-serif; font-size: 40px; font-weight: bold;">Заказать звонок</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bi irz" id="i720" style="z-index:121;top:93px;left:0px;">
+                        <div class="irz scroll0">
+                            <p style="text-align: center;"><span id="formInCallTextButtom" style="font-family: 'PT Sans Caption', sans-serif; font-size: 17px; font-weight: 600;">Введите имя, номер телефона, нажмите "Отправить",  и наш менеджер свяжется с вами в ближайшее время.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bi irz" id="i724" style="z-index:125;top:342px;left:0px;">
+                        <div class="irz scroll0">
+                            <h2 style="text-align: center;"><span style="font-family: Roboto, sans-serif; font-size: 12px; font-weight: lighter;">Ваши контактные данные в безопасности и не будут переданы третьим лицам</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="bi irz" id="i718" style="top:0px;left:0px;z-index:118;">
+
+                    </div><a href="#" class="nodec" onclick="javascript:popupClose('c_717');return false;">
+                        <div class="bi" id="i725" style="top:-17px;left:561px;z-index:126;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/725-703-690-677-664-651-638-625-s-button-close-v2.png" width="50" height="50" alt="" title="" class="bl center"></div></a><div class="bi irz" id="i721" style="top:157px;left:84px;z-index:122;"><div class="irz scroll0"><i id="formInCallTextIconOne" class="fa fa-user" style="font-size:50px;"></i></div></div><div class="bi irz" id="i722" style="top:218px;left:85px;z-index:123;"><div class="irz scroll0"><i id="formInCallTextIconTwo" class="fa fa-phone-square" style="font-size:50px;"></i></div></div><div class="bi irz" id="i723" style="top:156px;left:143px;z-index:124;">
+                        <div class="irz scroll0">
+
+                            <div class="form-block1-number-1" id="formInCall">
+                                <?php echo do_shortcode ('[contact-form-7 id="110" title="Contact form in navbar"]'); ?>
+                            </div>
+
+
+
+                            </script></div></div><div class="bi irz" id="i726" style="top:191px;left:520px;z-index:127;"><div class="irz scroll0"><img id="formInCallTextIconImage" style="display: none; position: relative; top: 0px; left: -265px;" id="formInCallTextIconImage" src="<?php echo get_template_directory_uri(); ?>/assets/img/form-ok.png" alt=""></div></div></div></div></div></div>
 
     <div id="pgc_797" class="hidden" style="height:438px;"><div id="virtualc_797" style="height:438px;" class="virtuals"><div class="allContent" style="width:999px;height:438px;"><div id="c_797" class="droppable" style="width:999px;height:438px;">
                     <a id="ac_797" class="ascroll" style="top:-86px;"></a><div class="bi irz" id="i800" style="z-index:167;top:20px;left:0px;"><div class="irz scroll0"><p style="text-align: center; line-height: 30px;"><span style="font-weight: 900; font-size: 45px;"><span style="font-family: Roboto, sans-serif; line-height: 40px;"><span style="color: red;">Акция!</span> При заказе от 3-х кг - электронный термометр в подарок</span></span></p></div></div><div class="bi irz" id="i803" style="z-index:170;top:185px;left:6px;"><div class="irz scroll0"><p style="text-align: center;"><span style="font-family: Roboto, sans-serif; font-size: 19px;"><span style="font-family: Roboto, sans-serif;"><strong><span style="font-size: 21px;">СОВЕРШИТЕ ЗАКАЗ ОТ 3 КГ.</span></strong><br />И компания "Биоферм" подарит Вам универсальный брендовый термометр. Что бы Вы могли убедиться в том что "Биоферм" понастоящему эффективный и высокотехнологичный продукт для вашего хозяйства!</span></span></p></div></div><div class="bi irz" id="i807" style="z-index:172;top:167px;left:710px;"><div class="irz scroll0"><p style="text-align: center;"><strong><span style="font-size: 18px;"><span id="popUpFormZagolovokBIO-9" style="font-family: Roboto, sans-serif;">ПОЛУЧИТЬ ПОДАРОК</span></span></strong></p></div></div><div class="bi" id="i804" style="top:179px;left:385px;z-index:50;"><img src="<?php echo get_template_directory_uri(); ?>/assets/files/block/s-gift-block-v3.png@times=1507903642" width="280" height="204" alt="" title="" class="bl center"></div><div class="bi irz" id="i805" style="top:228px;left:708px;z-index:171;"><div class="irz scroll0">

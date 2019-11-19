@@ -34,11 +34,35 @@
 .rtwpvg-trigger:hover{
     cursor: pointer;
 }
+table.variations td.value select option:first-child{
+    display: none;
+}
+table.variations{
+    margin: 1rem 0 0 0;
+    width: max-content;
+}
+table.variations td.label {
+    vertical-align: bottom;
+    height: 38px;
+}
+table.variations a.reset_variations {
+    display: none !important;
+}
 .startshop-item-detail p.price {
     font-size: 30px;
     line-height: 36px;
     color: #59a600;
     font-weight: bold;
+    display: inherit;
+    margin: 0 0 15px;
+}
+.variations_form.cart,
+.woocommerce-variation-add-to-cart{
+    display: flex;
+}
+.variations_form.cart {
+    flex-direction: column-reverse;
+    margin: 0;
 }
 .startshop-item-detail p.price ins {
     text-decoration: none;

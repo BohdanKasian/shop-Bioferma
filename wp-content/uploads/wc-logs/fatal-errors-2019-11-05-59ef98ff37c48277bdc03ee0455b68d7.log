@@ -1,0 +1,18 @@
+2019-11-05T21:28:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function bioferm_woocommerce_custom_checkout_billing_fields(), 2 passed in D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\class-wp-hook.php on line 286 and exactly 3 expected in D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\woocommerce\includes\wc-functions-checkout.php:16
+Stack trace:
+#0 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\class-wp-hook.php(286): bioferm_woocommerce_custom_checkout_billing_fields(Array, 'UA')
+#1 D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\plugins\woocommerce\includes\class-wc-countries.php(1360): apply_filters('woocommerce_bil...', Array, 'UA')
+#3 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(228): WC_Countries->get_address_fields('UA', 'billing_')
+#4 D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\woocommerce\c в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\themes\bio-ferma\woocommerce\includes\wc-functions-checkout.php на строке 16
+
+2019-11-05T21:48:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\plugins\woo-shipping-for-nova-poshta\vendor\sergeynezbritskiy\nova-poshta-api-2\src\Delivery\NovaPoshtaApi2.php на строке 229
+
+2019-11-05T21:48:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded в D:\localRepository\MY-PROJECT\bio-ferma\wp-includes\wp-db.php на строке 2061
+
+2019-11-05T21:48:37+00:00 CRITICAL Maximum execution time of 120 seconds exceeded в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\plugins\woo-shipping-for-nova-poshta\vendor\sergeynezbritskiy\nova-poshta-api-2\src\Delivery\NovaPoshtaApi2.php на строке 229
+
+2019-11-05T21:49:32+00:00 CRITICAL Maximum execution time of 120 seconds exceeded в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\plugins\woo-shipping-for-nova-poshta\classes\DatabaseSync.php на строке 156
+
+2019-11-05T21:49:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded в D:\localRepository\MY-PROJECT\bio-ferma\wp-content\plugins\woo-shipping-for-nova-poshta\vendor\sergeynezbritskiy\nova-poshta-api-2\src\Delivery\NovaPoshtaApi2.php на строке 229
+

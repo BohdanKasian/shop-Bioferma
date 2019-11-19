@@ -24,9 +24,10 @@ function bioferm_woocommerce_custom_checkout_billing_fields( $address_fields, $c
     $address_fields['billing_postcode']['class']  = array( 'row col-md-5' );
     $address_fields['billing_phone']['class']     = array( 'col-md-5' );
     $address_fields['billing_email']['class']     = array( 'col-md-5' );
-    $address_fields['billing_country']['class']     = array( 'col-md-5' );
+    $address_fields['billing_country']['class']   = array( 'col-md-5 display-disabled' );
     return $address_fields;
 }
+
 add_action( 'woocommerce_before_checkout_form', 'bioferm_checkout_form_start' );
 function bioferm_checkout_form_start(){
     ?>
